@@ -1,0 +1,1 @@
+Add a new node labeled 'Check' above the 'agg' node, make it a yellow diamond, connect the top 'hist' node to it, and add a dashed arrow from it to the 'agg' node

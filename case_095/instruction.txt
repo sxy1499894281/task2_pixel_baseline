@@ -1,0 +1,1 @@
+Delete the 'Smaller' button and the 'Larger' button, then move the 'Normal' button to the left, change its text to 'Reset', change its color to orange, and make it wider

@@ -1,0 +1,354 @@
+<mxGraphModel dx="1600" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="800" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+
+      <!-- ============================================================
+           LEGEND
+           ============================================================ -->
+      <mxCell id="Legend_Title" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="1350" y="20" width="100" height="20" as="geometry" />
+      </mxCell>
+      
+      <!-- Legend Item 1: AST Edge -->
+      <mxCell id="Leg_AST_Line" value="" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="1350" y="50" as="sourcePoint" />
+          <mxPoint x="1400" y="50" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="Leg_AST_Text" value="AST edge" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="1410" y="40" width="80" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Legend Item 2: Lexical Edge -->
+      <mxCell id="Leg_Lex_Line" value="" style="endArrow=classic;html=1;strokeColor=#b85450;dashed=1;dashPattern=1 2;rounded=0;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="1350" y="80" as="sourcePoint" />
+          <mxPoint x="1400" y="80" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="Leg_Lex_Text" value="Lexical edge" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="1410" y="70" width="100" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Legend Item 3: CFG Edge -->
+      <mxCell id="Leg_CFG_Line" value="" style="endArrow=classic;html=1;strokeColor=#d6b656;dashed=1;rounded=0;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="1350" y="110" as="sourcePoint" />
+          <mxPoint x="1400" y="110" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="Leg_CFG_Text" value="CFG edge" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="1410" y="100" width="80" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           LEFT GRAPH (Standard AST)
+           ============================================================ -->
+      <!-- Root -->
+      <mxCell id="L_ForStmt" value="ForStmt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="200" y="100" width="80" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Level 2 -->
+      <mxCell id="L_Eq1" value="=" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="60" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_Lt" value="&lt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="160" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_Inc" value="++" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="260" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_Eq2" value="=" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="360" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Level 3 -->
+      <mxCell id="L_i1" value="i" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="40" y="260" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_0" value="0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="80" y="260" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_i2" value="i" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="140" y="260" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_30m" value="30000000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="180" y="260" width="70" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_i3" value="i" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="260" y="260" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_err1" value="error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="320" y="260" width="40" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_Plus" value="+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="380" y="260" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Level 4 -->
+      <mxCell id="L_err2" value="error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="360" y="340" width="40" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="L_fabs" value="fabs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="410" y="340" width="40" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Left Graph Edges -->
+      <mxCell id="LE_1" style="endArrow=classic;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_ForStmt" target="L_Eq1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_2" style="endArrow=classic;html=1;exitX=0.4;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_ForStmt" target="L_Lt">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_3" style="endArrow=classic;html=1;exitX=0.6;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_ForStmt" target="L_Inc">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_4" style="endArrow=classic;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_ForStmt" target="L_Eq2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_5" style="endArrow=classic;html=1;exitX=0;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Eq1" target="L_i1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_6" style="endArrow=classic;html=1;exitX=1;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Eq1" target="L_0">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_7" style="endArrow=classic;html=1;exitX=0;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Lt" target="L_i2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_8" style="endArrow=classic;html=1;exitX=1;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Lt" target="L_30m">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_9" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Inc" target="L_i3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_10" style="endArrow=classic;html=1;exitX=0;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Eq2" target="L_err1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_11" style="endArrow=classic;html=1;exitX=1;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Eq2" target="L_Plus">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_12" style="endArrow=classic;html=1;exitX=0;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Plus" target="L_err2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="LE_13" style="endArrow=classic;html=1;exitX=1;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="L_Plus" target="L_fabs">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           TRANSFORMATION ARROW
+           ============================================================ -->
+      <mxCell id="Trans_Arrow" value="" style="shape=arrow;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#666666;" vertex="1" parent="1">
+        <mxGeometry x="480" y="200" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           RIGHT GRAPH (Augmented)
+           ============================================================ -->
+      <!-- Root -->
+      <mxCell id="R_ForStmt" value="ForStmt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="900" y="100" width="80" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Level 2: Operators (Compound Nodes) -->
+      <!-- Group 1: Init -->
+      <mxCell id="R_BinOp1" value="BinaryOperator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxGeometry x="600" y="180" width="90" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_Sym1" value="=" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="690" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Group 2: Cond -->
+      <mxCell id="R_BinOp2" value="BinaryOperator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxGeometry x="760" y="180" width="90" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_Sym2" value="&lt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="850" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Group 3: Incr -->
+      <mxCell id="R_UnOp1" value="UnaryOperator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxGeometry x="920" y="180" width="90" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_Sym3" value="++" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="1010" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Group 4: Body -->
+      <mxCell id="R_BinOp3" value="BinaryOperator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxGeometry x="1080" y="180" width="90" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_Sym4" value="=" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="1170" y="180" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Level 3: Operands (Compound Nodes) -->
+      <!-- Init Children -->
+      <mxCell id="R_int1" value="int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxGeometry x="600" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_val1" value="v1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="630" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_int2" value="int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxGeometry x="670" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_val2" value="0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="700" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Cond Children -->
+      <mxCell id="R_int3" value="int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxGeometry x="760" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_val3" value="v1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="790" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_int4" value="int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxGeometry x="830" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_val4" value="30000000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="860" y="280" width="70" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Incr Children -->
+      <mxCell id="R_int5" value="int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxGeometry x="950" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_val5" value="v1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="980" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Body Children -->
+      <mxCell id="R_int6" value="int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxGeometry x="1080" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_val6" value="v2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="1110" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_UnOp2" value="UnaryOperator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxGeometry x="1150" y="280" width="90" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_Sym5" value="+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="1240" y="280" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Level 4: Nested Operands -->
+      <mxCell id="R_int7" value="int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxGeometry x="1150" y="380" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_val7" value="v2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="1180" y="380" width="30" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_Call" value="CallExpr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxGeometry x="1220" y="380" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="R_Func" value="f1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="1280" y="380" width="30" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Right Graph Edges: AST (Solid Black) -->
+      <!-- From Root -->
+      <mxCell id="RE_AST_1" style="endArrow=classic;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_ForStmt" target="R_BinOp1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_AST_2" style="endArrow=classic;html=1;exitX=0.4;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_ForStmt" target="R_BinOp2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_AST_3" style="endArrow=classic;html=1;exitX=0.6;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_ForStmt" target="R_UnOp1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_AST_4" style="endArrow=classic;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_ForStmt" target="R_BinOp3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- From Init -->
+      <mxCell id="RE_AST_5" style="endArrow=classic;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym1" target="R_int1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_AST_6" style="endArrow=classic;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym1" target="R_int2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- From Cond -->
+      <mxCell id="RE_AST_7" style="endArrow=classic;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym2" target="R_int3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_AST_8" style="endArrow=classic;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym2" target="R_int4">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- From Incr -->
+      <mxCell id="RE_AST_9" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym3" target="R_int5">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- From Body -->
+      <mxCell id="RE_AST_10" style="endArrow=classic;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym4" target="R_int6">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_AST_11" style="endArrow=classic;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym4" target="R_UnOp2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- From Body Nested -->
+      <mxCell id="RE_AST_12" style="endArrow=classic;html=1;exitX=0.25;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym5" target="R_int7">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_AST_13" style="endArrow=classic;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeColor=#000000;" edge="1" parent="1" source="R_Sym5" target="R_Call">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Right Graph Edges: Lexical (Red Dotted) -->
+      <mxCell id="RE_Lex_1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;strokeColor=#b85450;dashed=1;dashPattern=1 2;curved=1;" edge="1" parent="1" source="R_val1" target="R_val3">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="700" y="270" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="RE_Lex_2" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;strokeColor=#b85450;dashed=1;dashPattern=1 2;curved=1;" edge="1" parent="1" source="R_val3" target="R_val5">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="880" y="270" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="RE_Lex_3" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;strokeColor=#b85450;dashed=1;dashPattern=1 2;curved=1;" edge="1" parent="1" source="R_val5" target="R_val6">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="1050" y="270" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="RE_Lex_4" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=0.5;exitY=1;strokeColor=#b85450;dashed=1;dashPattern=1 2;curved=1;" edge="1" parent="1" source="R_val6" target="R_val7">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="1125" y="350" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Right Graph Edges: Linear Flow (Solid Black between leaves) -->
+      <mxCell id="RE_Lin_1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;strokeColor=#000000;" edge="1" parent="1" source="R_val2" target="R_int3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="RE_Lin_2" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;strokeColor=#000000;" edge="1" parent="1" source="R_val4" target="R_int5">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Right Graph Edges: CFG (Yellow Dashed) -->
+      <mxCell id="RE_CFG_1" style="endArrow=classic;html=1;entryX=0.5;entryY=1;exitX=0.5;exitY=1;strokeColor=#d6b656;dashed=1;curved=1;" edge="1" parent="1" source="R_Func" target="R_val3">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="1300" y="450" />
+                <mxPoint x="800" y="450" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

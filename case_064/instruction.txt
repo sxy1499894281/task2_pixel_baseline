@@ -1,0 +1,1 @@
+Change the color of the light blue bar representing '[Company]' in the top-right chart to green

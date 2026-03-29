@@ -1,0 +1,1 @@
+Change the text of the chart title '全年销售额数据看板' to 'Annual Sales Report'

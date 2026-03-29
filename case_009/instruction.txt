@@ -1,0 +1,1 @@
+Delete the 'Restart' node, delete the arrow pointing to it from the power supply check, and delete the line that loops back to the start

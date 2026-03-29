@@ -1,0 +1,1 @@
+Delete the blue callout box mentioning June along with its triangle pointer, change the main data line color to red, move the '5月' axis label downwards, and change the text of the '1435' data label to 'Max'

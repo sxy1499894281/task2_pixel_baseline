@@ -1,0 +1,1 @@
+Delete the dashed 'Rest' block on the right, delete the '...' text next to it, and delete the arrow connecting the second 'Visual Stimulus' label to the timeline

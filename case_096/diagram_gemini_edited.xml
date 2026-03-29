@@ -1,0 +1,120 @@
+<mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      
+      <!-- ========================================================================================== -->
+      <!-- LAYER 1: BACKGROUNDS & CONTAINERS -->
+      <!-- ========================================================================================== -->
+      
+      <!-- Recipe Card Container -->
+      <mxCell id="card_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E0E0;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxGeometry x="100" y="140" width="600" height="1100" as="geometry" />
+      </mxCell>
+
+      <!-- Recipe Image Placeholder (Blue Square) -->
+      <mxCell id="img_placeholder" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000FF;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="500" y="160" width="120" height="120" as="geometry" />
+      </mxCell>
+
+      <!-- ========================================================================================== -->
+      <!-- LAYER 2: TOP CONTROLS (Outside Card) -->
+      <!-- ========================================================================================== -->
+
+      <!-- "Go Back" Button -->
+      <mxCell id="btn_back" value="Go Back" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontColor=#333333;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="280" y="20" width="80" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- "Print" Button -->
+      <mxCell id="btn_print" value="Print" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#444444;strokeColor=none;fontColor=#FFFFFF;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="370" y="20" width="60" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Checkbox: Recipe Image -->
+      <mxCell id="chk_img_box" value="✔" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#444444;strokeColor=none;fontColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="250" y="65" width="16" height="16" as="geometry" />
+      </mxCell>
+      <mxCell id="chk_img_lbl" value="Recipe Image" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="270" y="63" width="90" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Checkbox: Nutrition Label -->
+      <mxCell id="chk_nut_box" value="✔" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#444444;strokeColor=none;fontColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="370" y="65" width="16" height="16" as="geometry" />
+      </mxCell>
+      <mxCell id="chk_nut_lbl" value="Nutrition Label" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="390" y="63" width="100" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Servings Control -->
+      <mxCell id="serv_minus" value="-" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=none;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxGeometry x="200" y="95" width="20" height="25" as="geometry" />
+      </mxCell>
+      <mxCell id="serv_val" value="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontColor=#333333;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxGeometry x="220" y="95" width="30" height="25" as="geometry" />
+      </mxCell>
+      <mxCell id="serv_plus" value="+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;strokeColor=none;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxGeometry x="250" y="95" width="20" height="25" as="geometry" />
+      </mxCell>
+      <mxCell id="serv_lbl" value="servings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="280" y="97" width="60" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Text Size Control -->
+      <mxCell id="size_small" value="Smaller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontColor=#333333;align=center;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+        <mxGeometry x="350" y="95" width="60" height="25" as="geometry" />
+      </mxCell>
+      <mxCell id="size_norm" value="Normal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#444444;strokeColor=#333333;fontColor=#FFFFFF;align=center;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+        <mxGeometry x="410" y="95" width="60" height="25" as="geometry" />
+      </mxCell>
+      <mxCell id="size_large" value="Larger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontColor=#333333;align=center;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
+        <mxGeometry x="470" y="95" width="60" height="25" as="geometry" />
+      </mxCell>
+
+      <!-- ========================================================================================== -->
+      <!-- LAYER 3: RECIPE CARD CONTENT -->
+      <!-- ========================================================================================== -->
+
+      <!-- Title -->
+      <mxCell id="title" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Easy M&amp;amp;Ms Easter Individual&lt;br&gt;Parfaits&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="120" y="160" width="370" height="70" as="geometry" />
+      </mxCell>
+
+      <!-- Subtitle -->
+      <mxCell id="subtitle" value="A delicious and easy to make Easter dessert" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="120" y="220" width="370" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Image Caption -->
+      <mxCell id="img_caption" value="5 from 1 vote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="500" y="285" width="120" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Metadata Table (Using HTML for alignment) -->
+      <mxCell id="metadata" value="&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; style=&quot;width:100%; font-size:12px; color:#333333;&quot;&gt;&lt;tr&gt;&lt;td style=&quot;width:90px;&quot;&gt;&lt;b&gt;Course&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Dessert&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Cuisine&lt;/b&gt;&lt;/td&gt;&lt;td&gt;American&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Keyword&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Easter, parfait&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot; height=&quot;10&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Prep Time&lt;/b&gt;&lt;/td&gt;&lt;td&gt;10 minutes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Cook Time&lt;/b&gt;&lt;/td&gt;&lt;td&gt;0 minutes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Total Time&lt;/b&gt;&lt;/td&gt;&lt;td&gt;10 minutes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;2&quot; height=&quot;10&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Servings&lt;/b&gt;&lt;/td&gt;&lt;td&gt;4 servings&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Calories&lt;/b&gt;&lt;/td&gt;&lt;td&gt;280 kcal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Author&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Debi&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;overflow=hidden;" vertex="1" parent="1">
+        <mxGeometry x="120" y="245" width="300" height="180" as="geometry" />
+      </mxCell>
+
+      <!-- Ingredients Section -->
+      <mxCell id="ingredients" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Ingredients&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Whipped Chocolate Ganache layer:&lt;/b&gt;&lt;br&gt;• &amp;frac12; cup chocolate chips&lt;br&gt;• &amp;frac14; cup heavy whipping cream&lt;br&gt;&lt;br&gt;&lt;b&gt;Whipped cream layer:&lt;/b&gt;&lt;br&gt;• &amp;frac12; cup heavy whipping cream&lt;br&gt;• 2 tablespoons powdered sugar&lt;br&gt;&lt;br&gt;&lt;b&gt;Layers:&lt;/b&gt;&lt;br&gt;• Graham Cracker Crumbs&lt;br&gt;• M&amp;amp;M&#39;s Speckled Eggs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="120" y="430" width="560" height="200" as="geometry" />
+      </mxCell>
+
+      <!-- Instructions Section -->
+      <mxCell id="instructions" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Instructions&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;ol style=&quot;padding-left:20px; margin-top:5px;&quot;&gt;&lt;li&gt;In a large microwave proof bowl, heat the chocolate chips and the &amp;frac14; cup cream in 30-second increments in the microwave, stirring well after each cooking time, until the chocolate is melted and smooth. Set aside to allow to cool to room temperature, you can place the chocolate mixture in the fridge, but don&#39;t allow it to get so cold that it hardens.&lt;/li&gt;&lt;br&gt;&lt;li&gt;In a large bowl or the bowl of a stand mixer, add &amp;frac12; cup whipping cream and the powdered sugar. Whip using a hand held mixer or the stand mixer until stiff peaks form.&lt;/li&gt;&lt;br&gt;&lt;li&gt;Again, using the hand held mixer or the stand mixer, whip the chocolate ganache until soft peaks form.&lt;/li&gt;&lt;br&gt;&lt;li&gt;Now, the layering happens!&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="120" y="640" width="560" height="220" as="geometry" />
+      </mxCell>
+
+      <!-- Nutrition Section -->
+      <mxCell id="nutrition" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Nutrition&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px; color:#555555;&quot;&gt;Calories: 280 kcal | Carbohydrates: 21 g | Protein: 2 g | Fat: 21 g | Saturated Fat: 14 g | Polyunsaturated Fat: 1 g | Monounsaturated Fat: 4 g | Trans Fat: 0.04 g | Cholesterol: 54 mg | Sodium: 27 mg | Potassium: 42 mg | Fiber: 1 g | Sugar: 19 g | Vitamin A: 706 IU | Vitamin C: 0.4 mg | Calcium: 56 mg | Iron: 0.3 mg&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="120" y="870" width="560" height="100" as="geometry" />
+      </mxCell>
+
+      <!-- Footer -->
+      <mxCell id="footer" value="Find this and other delicious recipes at Life Currents https://lifecurrentsblog.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#666666;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="100" y="1180" width="600" height="30" as="geometry" />
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

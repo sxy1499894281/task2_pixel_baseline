@@ -1,0 +1,1 @@
+Add a new node named 'Security Log' below the '业务数据库' node in the left panel, change its shape to a rounded rectangle, set its color to yellow, add an arrow connecting it to the '安全大模型' area, and make the arrow dashed

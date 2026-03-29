@@ -1,0 +1,1 @@
+Delete the '语言翻译' node located at the bottom right of the center panel, move the '指令调度引擎' node to that position, and change the '指令调度引擎' node to orange

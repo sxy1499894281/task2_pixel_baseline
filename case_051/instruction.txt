@@ -1,0 +1,1 @@
+Move the '历史新高' tag upwards, change its background color to green, and adjust the connecting line path

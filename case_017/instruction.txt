@@ -1,0 +1,1 @@
+In the right diagram, delete the dashed circle node, add a new node labeled 'Root' in its place, change its color to grey, and add arrows connecting it to the top and bottom dashed containers

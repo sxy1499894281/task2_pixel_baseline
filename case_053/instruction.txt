@@ -1,0 +1,1 @@
+Delete the horizontal line under the header, delete the 'Powerpoint Template' subtitle, add a new rectangle node in the top right corner, change the new rectangle to red, and set its text to 'Confidential'

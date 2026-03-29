@@ -1,0 +1,174 @@
+<mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="600" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+
+      <!-- ==================== CONTAINERS (Background) ==================== -->
+      <!-- Producer Container -->
+      <mxCell id="prod_cont" value="&lt;b&gt;&lt;i&gt;Producer:&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=2;dashed=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontSize=18;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxGeometry x="40" y="40" width="720" height="100" as="geometry" />
+      </mxCell>
+
+      <!-- Consumer Container -->
+      <mxCell id="cons_cont" value="&lt;b&gt;&lt;i&gt;Consumer:&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=2;dashed=1;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontSize=18;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxGeometry x="40" y="360" width="720" height="100" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== TENSORS (Middle Layer) ==================== -->
+      <!-- Left Tensor Box -->
+      <mxCell id="tensor_left" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+        <mxGeometry x="240" y="180" width="140" height="140" as="geometry" />
+      </mxCell>
+
+      <!-- Right Tensor Box -->
+      <mxCell id="tensor_right" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+        <mxGeometry x="500" y="180" width="140" height="140" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== INTERNAL STRIPS (Inside Tensors) ==================== -->
+      <!-- Left Tensor Strips (Horizontal, Greenish) -->
+      <mxCell id="strip_l1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;dashed=1;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="245" y="210" width="130" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="strip_l2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;dashed=1;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="245" y="240" width="130" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="strip_l3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;dashed=1;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="245" y="270" width="130" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Right Tensor Strips (Vertical, Orangish) -->
+      <mxCell id="strip_r1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;dashed=1;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="530" y="185" width="20" height="130" as="geometry" />
+      </mxCell>
+      <mxCell id="strip_r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;dashed=1;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="560" y="185" width="20" height="130" as="geometry" />
+      </mxCell>
+      <mxCell id="strip_r3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;dashed=1;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="590" y="185" width="20" height="130" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== TENSOR TEXT & AXES ==================== -->
+      <!-- Left Tensor Text -->
+      <mxCell id="text_tensor_left" value="&lt;font color='#999999' size='3'&gt;&lt;b&gt;&lt;i&gt;Shared&lt;br&gt;tensor&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="250" y="200" width="120" height="100" as="geometry" />
+      </mxCell>
+      <!-- Left Tensor Axes -->
+      <mxCell id="axis_l_m" value="M" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;labelPosition=bottom;verticalLabelPosition=bottom;align=center;verticalAlign=top;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="255" y="195" as="sourcePoint" />
+          <mxPoint x="255" y="305" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="axis_l_n" value="N" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="255" y="195" as="sourcePoint" />
+          <mxPoint x="365" y="195" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Right Tensor Text -->
+      <mxCell id="text_tensor_right" value="&lt;font color='#999999' size='3'&gt;&lt;b&gt;&lt;i&gt;Shared&lt;br&gt;tensor&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="510" y="200" width="120" height="100" as="geometry" />
+      </mxCell>
+      <!-- Right Tensor Axes -->
+      <mxCell id="axis_r_m" value="M" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;labelPosition=bottom;verticalLabelPosition=bottom;align=center;verticalAlign=top;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="515" y="195" as="sourcePoint" />
+          <mxPoint x="515" y="305" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="axis_r_n" value="N" style="endArrow=classic;html=1;strokeColor=#000000;strokeWidth=2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="515" y="195" as="sourcePoint" />
+          <mxPoint x="625" y="195" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- ==================== MODULES (Foreground) ==================== -->
+      <!-- Producer Modules -->
+      <mxCell id="mod_all2all" value="&lt;i&gt;All2all/AllGather&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAD7AC;strokeColor=#000000;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxGeometry x="220" y="60" width="180" height="60" as="geometry" />
+      </mxCell>
+      <mxCell id="mod_gemm_top" value="&lt;i&gt;GEMM&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9D18E;strokeColor=#000000;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxGeometry x="480" y="60" width="180" height="60" as="geometry" />
+      </mxCell>
+
+      <!-- Consumer Modules -->
+      <mxCell id="mod_gemm_bot" value="Process" style="rhombus;whiteSpace=wrap;html=1;fillColor=#A9D18E;strokeColor=#000000;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxGeometry x="220" y="380" width="180" height="60" as="geometry" />
+      </mxCell>
+      <mxCell id="mod_topk" value="&lt;i&gt;TopK-reduce +&lt;br&gt;All2all/ReduceScatter&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAD7AC;strokeColor=#000000;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="480" y="380" width="180" height="60" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== ANNOTATION TEXT ==================== -->
+      <mxCell id="text_indep_m" value="&lt;i&gt;Independent&lt;br&gt;along M&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
+      </mxCell>
+      <mxCell id="text_indep_n" value="&lt;i&gt;Independent&lt;br&gt;along N&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxGeometry x="680" y="220" width="120" height="60" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== ARROWS (Flow) ==================== -->
+      <!-- 1. All2all -> Left Tensor -->
+      <mxCell id="edge_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="mod_all2all" target="tensor_left">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 2. Left Tensor -> GEMM Bottom -->
+      <mxCell id="edge_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1" source="tensor_left" target="mod_gemm_bot">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 3. GEMM Top -> Right Tensor -->
+      <mxCell id="edge_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="mod_gemm_top" target="tensor_right">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 4. Right Tensor -> TopK -->
+      <mxCell id="edge_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="tensor_right" target="mod_topk">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== ARROWS (Annotations) ==================== -->
+      <!-- 5, 6, 7. Independent M -> Left Strips -->
+      <mxCell id="edge_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="text_indep_m" target="strip_l1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="edge_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="text_indep_m" target="strip_l2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="edge_7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="text_indep_m" target="strip_l3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 8, 9, 10. Right Strips -> Independent N -->
+      <!-- Note: Image shows arrows originating from the strips and pointing to the text -->
+      <mxCell id="edge_8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="strip_r1" target="text_indep_n">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="660" y="250" />
+                <mxPoint x="660" y="250" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="edge_9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="strip_r2" target="text_indep_n">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="660" y="250" />
+                <mxPoint x="660" y="250" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="edge_10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="strip_r3" target="text_indep_n">
+        <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+                <mxPoint x="660" y="250" />
+                <mxPoint x="660" y="250" />
+            </Array>
+        </mxGeometry>
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

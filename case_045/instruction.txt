@@ -1,0 +1,1 @@
+Change the text of the '新增粉丝' button to 'New Fans', change its color to green, and move it slightly upward

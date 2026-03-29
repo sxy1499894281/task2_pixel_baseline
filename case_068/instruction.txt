@@ -1,0 +1,1 @@
+Delete the third red node from the top, delete the arrows connected to it, add a new diamond-shaped node in its place, change the new node to yellow, connect the second red node to this new node, and connect the new node to the fourth red node

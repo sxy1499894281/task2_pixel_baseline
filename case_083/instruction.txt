@@ -1,0 +1,1 @@
+Delete the arrow connecting 'Return Company Property' to 'Update Employee Records', add a new node labeled 'Exit Survey' in between them, change the new node to yellow, add an arrow from 'Return Company Property' to the new node, add another arrow from the new node to 'Update Employee Records', and adjust the connection paths

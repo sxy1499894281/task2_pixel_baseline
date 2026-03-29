@@ -1,0 +1,111 @@
+<mxGraphModel dx="1200" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ==================== BACKGROUND LAYERS ==================== -->
+        <!-- Intro Box -->
+        <mxCell id="bg_intro" value="WOOP思维四步法是由德国心理学家加布里埃尔·奥茨发明的。它是一个简单但非常强大的工具，可以帮助我们将梦想变为现实。woop思维四步法的四个步骤分别是：愿景、结果、障碍、计划。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=none;arcSize=10;align=left;verticalAlign=top;spacing=15;fontSize=14;fontColor=#333333;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="650" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Footer Box -->
+        <mxCell id="bg_footer" value="&lt;ul&gt;&lt;li&gt;愿望：明确并专注于一个具体的目标，激发实现它的愿望和动力。&lt;/li&gt;&lt;li&gt;最好的结果：设想实现愿望后的积极结果，以增强信心和积极性。&lt;/li&gt;&lt;li&gt;障碍：识别可能的挑战和障碍，准备相应的应对策略。&lt;/li&gt;&lt;li&gt;计划：制定实际可行的行动计划，包括如何克服障碍的详细步骤。&lt;/li&gt;&lt;/ul&gt;通过这种方法，个人不仅能够清晰地认识到自己的愿望和目标，还能够积极地面对可能的障碍，并制定出切实可行的行动计划。这种模型在个人发展、职业规划、健康行为改变等多个领域都有广泛的应用。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=none;arcSize=10;align=left;verticalAlign=top;spacing=15;fontSize=13;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="650" height="220" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== TIMELINE AXIS (Behind Circles) ==================== -->
+        <mxCell id="timeline_axis" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#D97A34;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="480" as="sourcePoint" />
+            <mxPoint x="800" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================== FOREGROUND NODES ==================== -->
+        
+        <!-- Title -->
+        <mxCell id="title" value="&lt;font color=&quot;#D97A34&quot; style=&quot;font-size: 36px&quot;&gt;WOOP计划法模型&lt;/font&gt; &lt;font color=&quot;#D97A34&quot; style=&quot;font-size: 36px&quot;&gt;|&lt;/font&gt; &lt;font color=&quot;#D97A34&quot; style=&quot;font-size: 18px&quot;&gt;WOOP PLANNING&lt;br&gt;Model&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="600" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Step 01: Wish (Top Left) -->
+        <mxCell id="label_01_top" value="明确自己的愿景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="box_wish" value="愿望&lt;br&gt;(Wish)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=green;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="110" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="circle_01" value="01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#D97A34;strokeWidth=2;dashed=1;fontColor=#000000;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="135" y="455" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Step 02: Outcome (Bottom Center-Left) -->
+        <mxCell id="circle_02" value="02" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#D97A34;strokeWidth=2;dashed=1;fontColor=#000000;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="310" y="455" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="box_outcome" value="最好的结果&lt;br&gt;(Outcome)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=none;fontColor=#000000;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="285" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="label_02_bottom" value="确定实现目标后的&lt;br&gt;具体结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="275" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Mental Contrasting (Top Center) -->
+        <mxCell id="label_mc" value="保留张力，让幻想与现&lt;br&gt;实产生联系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="275" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="box_mc" value="心理对照法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=none;fontColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="295" y="385" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Step 03: Obstacle (Top Right) -->
+        <mxCell id="label_03_top" value="识别可能阻碍我们&lt;br&gt;实现目标的障碍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="box_obstacle" value="障碍&lt;br&gt;(Obstacle)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D97A34;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="circle_03" value="03" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#D97A34;strokeWidth=2;dashed=1;fontColor=#000000;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="485" y="455" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Step 04: Plan (Bottom Right) -->
+        <mxCell id="circle_04" value="04" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#D97A34;strokeWidth=2;dashed=1;fontColor=#000000;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="660" y="455" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="box_plan" value="计划&lt;br&gt;(Plan)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=none;fontColor=#000000;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="635" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="label_04_bottom" value="需要制定一个具体&lt;br&gt;的计划来实现目标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="625" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Decorations -->
+        <mxCell id="deco_droplet_1" value="💧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="80" y="920" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="deco_droplet_2" value="💧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="120" y="900" width="30" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== EDGES ==================== -->
+        
+        <!-- Arrow: Mental Contrasting -> Wish (Left) -->
+        <mxCell id="edge_mc_wish" value="" style="edgeStyle=none;html=1;endArrow=classic;startArrow=none;strokeColor=#D0D0D0;strokeWidth=1;rounded=0;" edge="1" parent="1" source="box_mc" target="box_wish">
+          <mxGeometry relative="1" as="geometry">
+             <mxPoint as="sourcePoint" />
+             <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Arrow: Mental Contrasting -> Obstacle (Right) -->
+        <mxCell id="edge_mc_obstacle" value="" style="edgeStyle=none;html=1;endArrow=classic;startArrow=none;strokeColor=#D0D0D0;strokeWidth=1;rounded=0;" edge="1" parent="1" source="box_mc" target="box_obstacle">
+          <mxGeometry relative="1" as="geometry">
+             <mxPoint as="sourcePoint" />
+             <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>

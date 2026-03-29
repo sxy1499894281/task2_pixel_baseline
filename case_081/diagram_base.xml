@@ -1,0 +1,116 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node_checkin" value="Patient Check-in" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_gather" value="Gather patient information" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="node_eligibility" value="Insurance Eligibility Verification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_care" value="Patient Care Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_coding" value="Medical Coding of Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_charge" value="Charge Entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_claims" value="Claims Submission" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_insurance" value="Insurance Company Processing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_denied" value="If Denied" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="node_approved" value="If Approved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="node_denial_mgmt" value="Denial Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_resubmit" value="Resubmit Claim" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="node_posting" value="Payment Posting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="680" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_billing" value="Patient Billing for Remaining Balance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="750" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_collection" value="Payment Collection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="820" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_resolution" value="Account Resolution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="890" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_checkin" target="node_gather">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_gather" target="node_eligibility">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_eligibility" target="node_care">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_care" target="node_coding">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_coding" target="node_charge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_charge" target="node_claims">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_7" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_claims" target="node_insurance">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="520" />
+              <mxPoint x="510" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.25;exitY=1;entryX=0.75;entryY=0;" edge="1" parent="1" source="node_insurance" target="node_denied">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.75;exitY=1;entryX=0.25;entryY=0;" edge="1" parent="1" source="node_insurance" target="node_approved">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0;exitY=1;entryX=1;entryY=0;" edge="1" parent="1" source="node_denied" target="node_denial_mgmt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_approved" target="node_posting">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.25;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="node_denial_mgmt" target="node_resubmit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="630" />
+              <mxPoint x="110" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="node_resubmit" target="node_claims">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_posting" target="node_billing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_billing" target="node_collection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=classic;startArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="node_collection" target="node_resolution">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>

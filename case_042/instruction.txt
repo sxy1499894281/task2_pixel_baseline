@@ -1,0 +1,1 @@
+Delete the description text under '个人提升', move the '个人提升' title down to the description's position, and change the title's background color to yellow

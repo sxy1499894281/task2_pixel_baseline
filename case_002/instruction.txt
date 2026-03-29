@@ -1,0 +1,1 @@
+Delete the top 'All2all/AllGather' node, delete the arrow connected to it, add a new node labeled 'Input' in its place, change the new node to blue, make it larger, add an arrow from it to the left 'Shared tensor', and make that arrow dashed

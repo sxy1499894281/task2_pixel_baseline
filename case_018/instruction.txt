@@ -1,0 +1,1 @@
+In the left diagram, delete the 'C2' node, delete the arrow pointing to it, and move the 'C1' node downwards

@@ -1,0 +1,1 @@
+Delete the grey 'BU 1' floating bar and the two dashed lines connected to it. Then add a new red circle in its place and draw a new line connecting the first column to this new circle

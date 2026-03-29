@@ -1,0 +1,87 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="container_left" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="container_right" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="300" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="goal" value="&lt;b&gt;Goal:&lt;/b&gt; Proof of the identifiability of &amp;tau;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="40" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" value="&lt;b&gt;Step 1:&lt;/b&gt; Proof of the&lt;br&gt;identifiability of F(&lt;b&gt;X&lt;/b&gt;|R = 0)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="&lt;b&gt;Step 2:&lt;/b&gt; Proof of the&lt;br&gt;identifiability of E[Y(t)|&lt;b&gt;X&lt;/b&gt;]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step1_1" value="&lt;b&gt;Step 1.1:&lt;/b&gt; Proof&lt;br&gt;in Setting 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step1_2" value="&lt;b&gt;Step 1.2:&lt;/b&gt; Proof&lt;br&gt;in Setting 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step2_1" value="&lt;b&gt;Step 2.1:&lt;/b&gt; Proof&lt;br&gt;in Setting 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step2_2" value="&lt;b&gt;Step 2.2:&lt;/b&gt; Proof&lt;br&gt;in Setting 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="220" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="left_lemma" value="Lemma 3.4 and&lt;br&gt;Lemma 3.5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="left_prob1" value="P(&lt;b&gt;X&lt;/b&gt;&lt;sup&gt;m&lt;/sup&gt;|&lt;b&gt;X&lt;/b&gt;&lt;sup&gt;c&lt;/sup&gt;, R = 0)&lt;br&gt;is identifiable." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="left_prob2" value="P(&lt;b&gt;X&lt;/b&gt;, R = 0) is&lt;br&gt;identifiable." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="right_lemma" value="Lemma 3.4 and&lt;br&gt;Lemma 3.5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="320" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="right_prob1" value="P(&lt;b&gt;X&lt;/b&gt;&lt;sup&gt;m&lt;/sup&gt;|&lt;b&gt;X&lt;/b&gt;&lt;sup&gt;c&lt;/sup&gt;, Y(t), R = 1)&lt;br&gt;is identifiable." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="400" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="right_prob2" value="P(&lt;b&gt;X&lt;/b&gt;, T, Y(t)|R = 1)&lt;br&gt;is identifiable." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="820" y="480" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_goal_step1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="goal" target="step1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_goal_step2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="goal" target="step2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_step1_1_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="step1" target="step1_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_step1_1_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="step1" target="step1_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_step2_2_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="step2" target="step2_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_step2_2_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="step2" target="step2_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_step1_2_lemma" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="step1_2" target="left_lemma">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_left_lemma_prob1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="left_lemma" target="left_prob1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_left_prob1_prob2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="left_prob1" target="left_prob2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_step2_2_lemma" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="step2_2" target="right_lemma">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_right_lemma_prob1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="right_lemma" target="right_prob1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_right_prob1_prob2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;startArrow=none;" edge="1" parent="1" source="right_prob1" target="right_prob2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>

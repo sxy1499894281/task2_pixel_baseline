@@ -1,0 +1,1 @@
+Change the background color of the '漏洞库' node in the left panel to red

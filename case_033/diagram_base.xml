@@ -1,0 +1,220 @@
+<mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ============================================================
+             LAYER 1: BACKGROUND PANELS
+             ============================================================ -->
+
+        <!-- Left Panel: Security Knowledge Base -->
+        <mxCell id="kb_panel" value="&lt;b&gt;安全知识库&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4D86C6;gradientColor=#A9C4DE;gradientDirection=south;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=16;verticalAlign=top;spacingTop=20;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="200" height="760" as="geometry" />
+        </mxCell>
+
+        <!-- Right Panel: Security Tool Library -->
+        <mxCell id="tool_panel" value="&lt;b&gt;安全工具库&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4D86C6;gradientColor=#A9C4DE;gradientDirection=south;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=16;verticalAlign=top;spacingTop=20;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="120" width="200" height="760" as="geometry" />
+        </mxCell>
+
+        <!-- Center Panel: Intelligent Agent Framework -->
+        <mxCell id="center_panel" value="&lt;b&gt;智能体框架&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B0C4DE;strokeWidth=1;verticalAlign=top;spacingTop=10;fontColor=#205AA7;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="720" height="680" as="geometry" />
+        </mxCell>
+
+        <!-- Center Inner: Security Large Model Area -->
+        <mxCell id="model_area" value="&lt;b&gt;安全大模型&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B0C4DE;strokeColor=none;verticalAlign=top;spacingTop=10;fontColor=#205AA7;fontStyle=1;fontSize=14;" vertex="1" parent="center_panel">
+          <mxGeometry x="20" y="50" width="680" height="440" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================
+             LAYER 2: SUB-CONTAINERS (Inside Center Panel)
+             ============================================================ -->
+
+        <!-- Language Center Group -->
+        <mxCell id="lang_group" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;arcSize=20;" vertex="1" parent="model_area">
+          <mxGeometry x="20" y="50" width="640" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lang_label" value="语言中枢" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#205AA7;fontStyle=1;" vertex="1" parent="lang_group">
+          <mxGeometry x="10" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Planning Center Group -->
+        <mxCell id="plan_group" value="规划中枢" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;verticalAlign=top;spacingTop=10;fontColor=#205AA7;fontStyle=1;arcSize=15;" vertex="1" parent="model_area">
+          <mxGeometry x="20" y="140" width="140" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Judgment Center Group -->
+        <mxCell id="judge_group" value="判别中枢" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;verticalAlign=top;spacingTop=10;fontColor=#205AA7;fontStyle=1;arcSize=15;" vertex="1" parent="model_area">
+          <mxGeometry x="180" y="140" width="140" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Ethics Center Group -->
+        <mxCell id="ethics_group" value="道德中枢" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;verticalAlign=top;spacingTop=10;fontColor=#205AA7;fontStyle=1;arcSize=15;" vertex="1" parent="model_area">
+          <mxGeometry x="340" y="140" width="140" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Memory Center Group -->
+        <mxCell id="memory_group" value="记忆中枢" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;verticalAlign=top;spacingTop=10;fontColor=#205AA7;fontStyle=1;arcSize=15;" vertex="1" parent="model_area">
+          <mxGeometry x="500" y="140" width="140" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================
+             LAYER 3: LEAF NODES (Items)
+             ============================================================ -->
+
+        <!-- Left Panel Items -->
+        <mxCell id="kb_1" value="漏洞库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kb_2" value="病毒库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kb_3" value="威胁情报" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kb_4" value="样本库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kb_5" value="攻防战术" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kb_6" value="安全文档" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kb_7" value="业务数据库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kb_8" value="... ..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="kb_panel">
+          <mxGeometry x="20" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Right Panel Items -->
+        <mxCell id="tool_1" value="本地安全大脑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool_2" value="终端安全" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool_3" value="流量检测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool_4" value="MSS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool_5" value="威胁情报平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool_6" value="网络空间测绘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool_7" value="资产漏洞管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tool_8" value="... ..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#000000;fontSize=14;" vertex="1" parent="tool_panel">
+          <mxGeometry x="20" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Language Center Items -->
+        <mxCell id="lang_item_1" value="语言翻译" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="lang_group">
+          <mxGeometry x="140" y="10" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lang_item_2" value="文本摘要" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="lang_group">
+          <mxGeometry x="300" y="10" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lang_item_3" value="意图识别" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="lang_group">
+          <mxGeometry x="460" y="10" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Planning Center Items (Note: Image shows '语言翻译' repeated 3 times) -->
+        <mxCell id="plan_item_1" value="语言翻译" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="plan_group">
+          <mxGeometry x="10" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plan_item_2" value="语言翻译" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="plan_group">
+          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plan_item_3" value="语言翻译" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="plan_group">
+          <mxGeometry x="10" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Judgment Center Items -->
+        <mxCell id="judge_item_1" value="信息抽取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="judge_group">
+          <mxGeometry x="10" y="50" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="judge_item_2" value="逻辑推理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="judge_group">
+          <mxGeometry x="10" y="105" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="judge_item_3" value="是非判断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="judge_group">
+          <mxGeometry x="10" y="160" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="judge_item_4" value="研判检测" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="judge_group">
+          <mxGeometry x="10" y="215" width="120" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Ethics Center Items -->
+        <mxCell id="ethics_item_1" value="情感分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="ethics_group">
+          <mxGeometry x="10" y="50" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ethics_item_2" value="道德法规" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="ethics_group">
+          <mxGeometry x="10" y="150" width="120" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Memory Center Items -->
+        <mxCell id="memory_item_1" value="信息记忆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="memory_group">
+          <mxGeometry x="10" y="50" width="120" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom Engines (Directly in Center Panel) -->
+        <mxCell id="engine_storage" value="记忆存储" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="center_panel">
+          <mxGeometry x="25" y="530" width="140" height="105" as="geometry" />
+        </mxCell>
+
+        <mxCell id="engine_orch" value="任务编排引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="center_panel">
+          <mxGeometry x="170" y="530" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="engine_gen" value="任务生成引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="center_panel">
+          <mxGeometry x="315" y="530" width="145" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="engine_sup" value="监督评测引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="center_panel">
+          <mxGeometry x="170" y="585" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="engine_sched" value="指令调度引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="center_panel">
+          <mxGeometry x="315" y="585" width="145" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="engine_trans" value="语言翻译" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1034a6;strokeColor=none;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="center_panel">
+          <mxGeometry x="465" y="530" width="135" height="105" as="geometry" />
+        </mxCell>
+
+        <!-- ============================================================
+             LAYER 4: ARROWS (Edges)
+             ============================================================ -->
+        
+        <!-- Left to Center Arrow -->
+        <mxCell id="arrow_left" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;width=12;endSize=7.33;startSize=7.33;fillColor=#6c8ebf;strokeColor=#205AA7;startArrow=block;endArrow=block;" edge="1" parent="1" source="kb_panel" target="center_panel">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="500" />
+              <mxPoint x="290" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_left" value="知识增强" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#205AA7;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Center to Right Arrow -->
+        <mxCell id="arrow_right" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;width=12;endSize=7.33;startSize=7.33;fillColor=#6c8ebf;strokeColor=#205AA7;startArrow=block;endArrow=block;" edge="1" parent="1" source="center_panel" target="tool_panel">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="500" />
+              <mxPoint x="1110" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_right" value="工具增强" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#205AA7;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>

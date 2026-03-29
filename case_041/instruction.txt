@@ -1,0 +1,1 @@
+Delete the '04.提高工作效率' title, delete the description text below it, change the light blue card background to purple, move the '需求解析' tag up to the title position, change its text to 'Summary', and change its fill color to yellow

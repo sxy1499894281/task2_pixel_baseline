@@ -1,0 +1,1 @@
+Insert a new node between the top 'Inpatient Care Coordination' box and the 'Assess Patient Needs' diamond. Specifically: add a new node there, set its shape to a rectangle, change its text to 'Verify Insurance', delete the existing arrow connecting the top two nodes, and add two new arrows to connect the new node into the flow.

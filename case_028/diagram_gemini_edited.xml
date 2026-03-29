@@ -1,0 +1,143 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ==================== SEPARATORS (Background) ==================== -->
+        <mxCell id="sep_1" value="" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="180" width="920" height="0" as="geometry" />
+        </mxCell>
+        <mxCell id="sep_2" value="" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="290" width="920" height="0" as="geometry" />
+        </mxCell>
+        <mxCell id="sep_3" value="" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="490" width="920" height="0" as="geometry" />
+        </mxCell>
+        <mxCell id="sep_4" value="" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="920" height="0" as="geometry" />
+        </mxCell>
+        <mxCell id="sep_5" value="" style="endArrow=none;html=1;strokeColor=#999999;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="710" width="920" height="0" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== CONTAINERS (Background) ==================== -->
+        <!-- Client Layer Container -->
+        <mxCell id="cont_client" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1;dashed=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="80" width="760" height="90" as="geometry" />
+        </mxCell>
+        <!-- LB Layer Container -->
+        <mxCell id="cont_lb" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1;dashed=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="190" width="760" height="90" as="geometry" />
+        </mxCell>
+        <!-- App Layer Container -->
+        <mxCell id="cont_app" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1;dashed=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="300" width="760" height="180" as="geometry" />
+        </mxCell>
+        <!-- Service Layer Container -->
+        <mxCell id="cont_service" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1;dashed=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="500" width="760" height="90" as="geometry" />
+        </mxCell>
+        <!-- Resource Layer Container -->
+        <mxCell id="cont_resource" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#cccccc;strokeWidth=1;dashed=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="610" width="760" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== SUBSYSTEMS (Gray Backgrounds) ==================== -->
+        <!-- Column 1 Subsystems -->
+        <mxCell id="sub_prod" value="产品子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=none;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="280" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_review" value="评论子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=none;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="280" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <!-- Column 2 Subsystems -->
+        <mxCell id="sub_shop" value="购物子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=none;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="540" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_cs" value="客服子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=none;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="540" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <!-- Column 3 Subsystems -->
+        <mxCell id="sub_pay" value="支付子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=none;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="800" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sub_interface" value="接口子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=none;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="800" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== MAIN BOXES (Foreground) ==================== -->
+        <!-- Client Layer -->
+        <mxCell id="box_client" value="User Terminal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b9b;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="105" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- LB Layer -->
+        <mxCell id="box_lb_prod" value="产品负载均衡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#aecce6;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="240" y="215" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_lb_shop" value="购物负载均衡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#aecce6;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="500" y="215" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_lb_pay" value="支付负载均衡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#aecce6;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="760" y="215" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- App Layer Top Boxes -->
+        <mxCell id="box_app_prod" value="产品评论系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="240" y="315" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_app_shop" value="购物客服系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="500" y="315" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_app_pay" value="支付接口系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="760" y="315" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Service Layer -->
+        <mxCell id="box_svc_member" value="会员公共服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0fb;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="240" y="525" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_svc_prod" value="产品公共服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0fb;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="500" y="525" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_svc_review" value="评论公共服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0fb;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="760" y="525" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Resource Layer -->
+        <mxCell id="box_res_db" value="数据库主备集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbbdbd;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="220" y="635" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_res_cache" value="分布式缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbbdbd;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="410" y="635" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_res_session" value="分布式Session" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbbdbd;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="600" y="635" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="box_res_msg" value="分布式消息集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbbdbd;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="790" y="635" width="150" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== LABELS & TITLE ==================== -->
+        <mxCell id="title" value="19_产品总体架构图" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lbl_client" value="&lt;b&gt;客户端层&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_lb" value="&lt;b&gt;负载均衡接入层&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_app" value="&lt;b&gt;应用集群层&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="375" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_service" value="&lt;b&gt;分布式服务层&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="530" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_resource" value="&lt;b&gt;资源层&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="640" width="150" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>

@@ -1,0 +1,164 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      
+      <!-- Entities (Rectangles) -->
+      <mxCell id="entity_attendance" value="考勤信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="entity_employee" value="部门职员" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="540" y="120" width="120" height="60" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="entity_work" value="Review" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="860" y="300" width="80" height="80" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="entity_leave" value="请假信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="340" y="300" width="120" height="60" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="entity_dept" value="部门" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="720" y="300" width="120" height="60" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="entity_course" value="课程信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="160" y="500" width="120" height="60" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="entity_intern" value="部门实习生" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="540" y="500" width="120" height="60" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="entity_school" value="学校" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="540" y="800" width="120" height="60" as="geometry" />
+      </mxCell>
+
+      <!-- Relationships (Diamonds) -->
+      <mxCell id="rel_entry" value="录入" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="200" y="110" width="80" height="80" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="rel_audit" value="审核" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="360" y="110" width="80" height="80" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="rel_arrange" value="安排" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="700" y="110" width="80" height="80" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="rel_belongs_top" value="属于" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="560" y="300" width="80" height="80" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="rel_submit" value="提交" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="360" y="490" width="80" height="80" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="rel_complete" value="完成并反馈" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="740" y="490" width="80" height="80" as="geometry" />
+      </mxCell>
+      
+      <mxCell id="rel_belongs_bottom" value="属于" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="560" y="650" width="80" height="80" as="geometry" />
+      </mxCell>
+
+      <!-- Edges -->
+      <!-- 1. Attendance -> Entry (n) -->
+      <mxCell id="edge_1" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="entity_attendance" target="rel_entry">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 2. Entry -> Employee (1) Orthogonal Top -->
+      <mxCell id="edge_2" value="1" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=0;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_entry" target="entity_employee">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="240" y="60" />
+            <mxPoint x="600" y="60" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+
+      <!-- 3. Entry -> Course (n) Vertical -->
+      <mxCell id="edge_3" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_entry" target="entity_course">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 4. Audit -> Employee (1) -->
+      <mxCell id="edge_4" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_audit" target="entity_employee">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 5. Audit -> Leave (n) -->
+      <mxCell id="edge_5" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_audit" target="entity_leave">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 6. Leave -> Submit (n) -->
+      <mxCell id="edge_6" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="entity_leave" target="rel_submit">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 7. Course -> Submit (none) -->
+      <mxCell id="edge_7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="entity_course" target="rel_submit">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 8. Submit -> Intern (1) -->
+      <mxCell id="edge_8" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_submit" target="entity_intern">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 9. Employee -> Arrange (1) -->
+      <mxCell id="edge_9" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="entity_employee" target="rel_arrange">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 10. Arrange -> Work (n) -->
+      <mxCell id="edge_10" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_arrange" target="entity_work">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 11. Work -> Complete (n) Orthogonal -->
+      <mxCell id="edge_11" value="n" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=1;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="entity_work" target="rel_complete">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 12. Intern -> Complete (1) -->
+      <mxCell id="edge_12" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="entity_intern" target="rel_complete">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 13. Employee -> Belongs_Top (n) -->
+      <mxCell id="edge_13" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="entity_employee" target="rel_belongs_top">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 14. Belongs_Top -> Dept (1) -->
+      <mxCell id="edge_14" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_belongs_top" target="entity_dept">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 15. Belongs_Top -> Intern (n) -->
+      <mxCell id="edge_15" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_belongs_top" target="entity_intern">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 16. Intern -> Belongs_Bottom (n) -->
+      <mxCell id="edge_16" value="n" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="entity_intern" target="rel_belongs_bottom">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- 17. Belongs_Bottom -> School (1) -->
+      <mxCell id="edge_17" value="1" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="rel_belongs_bottom" target="entity_school">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <mxCell id="edge_review_dept" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="entity_work" target="entity_dept">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

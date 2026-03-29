@@ -1,0 +1,1 @@
+Delete the 'Lessons in diction and articulation' text and its dashed circle icon, move the 'Wind Down' task row up to fill the empty space, change the moon icon to a sun, and set the time to '06:00'

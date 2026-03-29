@@ -1,0 +1,192 @@
+<mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ==================== TITLE ==================== -->
+        <mxCell id="title_box" value="&lt;b&gt;xx系统架构概况&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=1;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="740" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== CHANNELS LAYER (RED) ==================== -->
+        <mxCell id="channels_container" value="渠道" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF6666;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="740" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="chan_mod_1" value="API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6666;fontColor=#CC0000;" vertex="1" parent="channels_container">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="chan_mod_2" value="个人版" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6666;fontColor=#CC0000;" vertex="1" parent="channels_container">
+          <mxGeometry x="165" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="chan_mod_3" value="企业版" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6666;fontColor=#CC0000;" vertex="1" parent="channels_container">
+          <mxGeometry x="310" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="chan_mod_4" value="无线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6666;fontColor=#CC0000;" vertex="1" parent="channels_container">
+          <mxGeometry x="455" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="chan_mod_5" value="语音" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6666;fontColor=#CC0000;" vertex="1" parent="channels_container">
+          <mxGeometry x="600" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== PARTNER ACCESS (PINK) ==================== -->
+        <mxCell id="partner_container" value="合作伙伴接入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF99CC;strokeWidth=2;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="180" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== PRODUCTS LAYER (BLUE) ==================== -->
+        <mxCell id="products_container" value="产品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66CCFF;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="740" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Group 1: Industry App -->
+        <mxCell id="group_industry" value="行业应用平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#99CCFF;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontSize=12;" vertex="1" parent="products_container">
+          <mxGeometry x="20" y="40" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ind_mod_1" value="航旅" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_industry">
+          <mxGeometry x="10" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ind_mod_2" value="B2C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_industry">
+          <mxGeometry x="120" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ind_mod_3" value="传统行业" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_industry">
+          <mxGeometry x="10" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ind_mod_4" value="新行业" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_industry">
+          <mxGeometry x="120" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Group 2: Group App -->
+        <mxCell id="group_groupapp" value="集团应用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#99CCFF;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontSize=12;" vertex="1" parent="products_container">
+          <mxGeometry x="260" y="40" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_mod_1" value="B2C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_groupapp">
+          <mxGeometry x="10" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_mod_2" value="淘宝" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_groupapp">
+          <mxGeometry x="120" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_mod_3" value="京东" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_groupapp">
+          <mxGeometry x="10" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_mod_4" value="有赞" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_groupapp">
+          <mxGeometry x="120" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Group 3: Personal Biz -->
+        <mxCell id="group_personal" value="个人业务平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#99CCFF;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontSize=12;" vertex="1" parent="products_container">
+          <mxGeometry x="500" y="40" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pers_mod_1" value="会员运营" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_personal">
+          <mxGeometry x="10" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pers_mod_2" value="生活助手" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_personal">
+          <mxGeometry x="120" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pers_mod_3" value="账户管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_personal">
+          <mxGeometry x="10" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pers_mod_4" value="安全认证" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCFF;fontColor=#0066CC;fontSize=11;" vertex="1" parent="group_personal">
+          <mxGeometry x="120" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== PUBLIC SERVICES (TEAL) ==================== -->
+        <mxCell id="public_container" value="公共服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66CCCC;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="740" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pub_mod_1" value="登录与身份" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCCC;fontColor=#009999;" vertex="1" parent="public_container">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pub_mod_2" value="收银台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCCC;fontColor=#009999;" vertex="1" parent="public_container">
+          <mxGeometry x="165" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pub_mod_3" value="交易" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCCC;fontColor=#009999;" vertex="1" parent="public_container">
+          <mxGeometry x="310" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pub_mod_4" value="收费" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCCC;fontColor=#009999;" vertex="1" parent="public_container">
+          <mxGeometry x="455" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pub_mod_5" value="安全" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CCCC;fontColor=#009999;" vertex="1" parent="public_container">
+          <mxGeometry x="600" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== BANK ACCESS (GREEN) ==================== -->
+        <mxCell id="bank_container" value="银行接入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#66CC66;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="180" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_inner_group" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;dashed=1;" vertex="1" parent="bank_container">
+          <mxGeometry x="10" y="60" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_gateway_bar" value="通信网关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC66;strokeColor=none;fontColor=#FFFFFF;horizontal=0;fontStyle=1;" vertex="1" parent="bank_inner_group">
+          <mxGeometry x="10" y="10" width="30" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_mod_1" value="网银" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CC66;fontColor=#009900;" vertex="1" parent="bank_inner_group">
+          <mxGeometry x="50" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_mod_2" value="一卡通" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CC66;fontColor=#009900;" vertex="1" parent="bank_inner_group">
+          <mxGeometry x="50" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_mod_3" value="银企直联" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#66CC66;fontColor=#009900;" vertex="1" parent="bank_inner_group">
+          <mxGeometry x="50" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_mod_4" value="网点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#66CC66;fontColor=#009900;" vertex="1" parent="bank_inner_group">
+          <mxGeometry x="50" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bank_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF0000;" edge="1" parent="bank_inner_group" source="bank_mod_4" target="bank_gateway_bar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== BASIC BIZ PLATFORM (ORANGE) ==================== -->
+        <mxCell id="basic_container" value="基础业务平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFCC66;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=14;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="740" height="260" as="geometry" />
+        </mxCell>
+
+        <!-- Group 1: Fund Processing -->
+        <mxCell id="group_fund" value="资金处理平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontSize=12;" vertex="1" parent="basic_container">
+          <mxGeometry x="20" y="40" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fund_mod_1" value="支付清算" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;" vertex="1" parent="group_fund">
+          <mxGeometry x="10" y="30" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fund_mod_2" value="账务会计" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;" vertex="1" parent="group_fund">
+          <mxGeometry x="10" y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fund_mod_3" value="账务会计" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;" vertex="1" parent="group_fund">
+          <mxGeometry x="10" y="130" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Group 2: Customer Info -->
+        <mxCell id="group_customer" value="客户信息平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;fontSize=12;" vertex="1" parent="basic_container">
+          <mxGeometry x="260" y="40" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_mod_1" value="会员信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;fontSize=11;" vertex="1" parent="group_customer">
+          <mxGeometry x="10" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_mod_2" value="商户信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;fontSize=11;" vertex="1" parent="group_customer">
+          <mxGeometry x="120" y="30" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_mod_3" value="商品账" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;fontSize=11;" vertex="1" parent="group_customer">
+          <mxGeometry x="10" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_mod_4" value="会员信" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;fontSize=11;" vertex="1" parent="group_customer">
+          <mxGeometry x="120" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_mod_5" value="商家信用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFCC66;fontColor=#CC9900;fontSize=11;" vertex="1" parent="group_customer">
+          <mxGeometry x="10" y="130" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Group 3: Core Control -->
+        <mxCell id="group_core" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;" vertex="1" parent="basic_container">
+          <mxGeometry x="500" y="40" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="core_text" value="核心管控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="group_core">
+          <mxGeometry x="60" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== MANAGEMENT PLATFORM (GRAY) ==================== -->
+        <mxCell id="mgmt_container" value="管理平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;strokeWidth=2;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="220" width="80" height="600" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>

@@ -1,0 +1,1 @@
+Delete the large dark blue box in the top-left section, add a new circle in that position, set its color to red, change its text to 'Core Idea', make it larger, and add an arrow connecting the 'Concept' title to this new circle

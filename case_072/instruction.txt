@@ -1,0 +1,1 @@
+Move the top-right circle upwards, change its border color to green, and adjust the connection line path

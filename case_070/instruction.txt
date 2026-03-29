@@ -1,0 +1,1 @@
+Change the text of the circle in the top-left corner to 'Manager'

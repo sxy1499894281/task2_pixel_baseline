@@ -1,0 +1,1 @@
+Delete the '最好的结果 (Outcome)' box and the text description below it, move the '02' circle down to the position of the deleted box, change the circle's fill color to orange, add an arrow from the '愿望 (Wish)' box to this circle, and set the arrow to dashed

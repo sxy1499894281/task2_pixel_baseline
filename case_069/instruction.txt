@@ -1,0 +1,1 @@
+Delete the bottommost blue node, delete the arrow pointing to it, and move the blue vertical bar on the right slightly to the left

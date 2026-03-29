@@ -1,0 +1,1 @@
+Add a new node labeled 'Internal Audit' between 'Medical Coding of Services' and 'Charge Entry', change its shape to a diamond, delete the existing arrow connecting these two nodes, and add new arrows to connect 'Medical Coding of Services' to the new node and the new node to 'Charge Entry'.

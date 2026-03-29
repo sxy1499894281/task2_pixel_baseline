@@ -1,0 +1,1 @@
+Add a new node between the two large central circles, change it to a rectangle, set its text to 'Bridge', fill it with yellow, add an arrow from the left large circle to this new node, and add another arrow from this new node to the right large circle

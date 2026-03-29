@@ -1,0 +1,1 @@
+Select the arrow connecting 'Patient Check-in' to 'Gather patient information', change it to a dashed line, turn it blue, and move the 'Gather patient information' node slightly downwards.

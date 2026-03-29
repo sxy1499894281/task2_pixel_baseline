@@ -1,0 +1,1 @@
+On Physical Page 1, delete the red cross mark, add a new green checkmark node in its place, change the final score box '40' to a circle, change its color to green, move it to the right, and update the connection lines

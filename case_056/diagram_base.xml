@@ -1,0 +1,113 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      
+      <!-- Background Layer: Intro Panel -->
+      <mxCell id="panel_intro" value="&lt;p style=&quot;line-height: 1.8; font-size: 14px;&quot;&gt;三脑理论模型原理认识到大脑结构是进化的产物。人脑有三种物理脑系统，分别为网状脑系统、情绪脑系统、大脑皮层系统。三脑作为人类进化不同阶段的产物，就像三台互联的生物电脑，各自拥有独立的智能、主体、时空感与记忆。&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=none;arcSize=10;align=left;verticalAlign=top;spacing=20;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="80" y="160" width="660" height="140" as="geometry" />
+      </mxCell>
+
+      <!-- Background Layer: Detail Panel -->
+      <mxCell id="panel_detail" value="&lt;ul style=&quot;line-height: 1.8; font-size: 14px;&quot;&gt;&lt;li&gt;&lt;b&gt;理智脑：&lt;/b&gt;形成于进化晚期，是人类特有的发达脑区域。负责高级认知功能，如思考、规划和语言。&lt;/li&gt;&lt;li&gt;&lt;b&gt;情绪脑：&lt;/b&gt;形成于进化中期，使哺乳动物能更复杂地适应环境。处理情绪反应、记忆和社会行为。&lt;/li&gt;&lt;li&gt;&lt;b&gt;本能脑：&lt;/b&gt;形成于进化早期，是所有脊椎动物共有的脑结构。负责基本生存功能，如呼吸和心跳，以及应激反应。&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;line-height: 1.8; font-size: 14px; margin-top: 10px;&quot;&gt;这三个脑系统虽然在功能上有所区分，但在实际运作中是相互连接和影响的。它们共同协作，使人类能够在复杂多变的环境中生存和繁衍。这一理论在心理学、神经科学、教育和个人发展等领域都有广泛的应用。&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=none;arcSize=10;align=left;verticalAlign=top;spacing=20;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="80" y="600" width="660" height="320" as="geometry" />
+      </mxCell>
+
+      <!-- Main Title -->
+      <mxCell id="title_main" value="&lt;font style=&quot;font-size: 42px&quot; color=&quot;#D97D28&quot;&gt;三脑理论模型&lt;/font&gt; &lt;font style=&quot;font-size: 24px&quot; color=&quot;#D97D28&quot;&gt;|&lt;/font&gt; &lt;font style=&quot;font-size: 18px&quot; color=&quot;#D97D28&quot;&gt;THEORY OF THREE&lt;br&gt;BRAINS MODEL&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="160" y="50" width="500" height="80" as="geometry" />
+      </mxCell>
+
+      <!-- Central Diagram Background Circle (Faint) -->
+      <mxCell id="brain_bg_circle" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="335" y="350" width="150" height="150" as="geometry" />
+      </mxCell>
+
+      <!-- Central Brain Icon (Constructed) -->
+      <!-- Left Hemisphere (Orange) -->
+      <mxCell id="brain_left" value="" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#D97D28;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="365" y="380" width="45" height="90" as="geometry" />
+      </mxCell>
+      <!-- Right Hemisphere (Grey) -->
+      <mxCell id="brain_right" value="" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="410" y="380" width="45" height="90" as="geometry" />
+      </mxCell>
+      <!-- Brain Details (Curves to simulate folds) -->
+      <mxCell id="brain_curve_1" value="" style="curved=1;endArrow=none;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=none;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="375" y="400" as="sourcePoint" />
+          <mxPoint x="400" y="400" as="targetPoint" />
+          <Array as="points">
+            <mxPoint x="385" y="390" />
+            <mxPoint x="390" y="410" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="brain_curve_2" value="" style="curved=1;endArrow=none;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=none;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="375" y="430" as="sourcePoint" />
+          <mxPoint x="400" y="430" as="targetPoint" />
+          <Array as="points">
+            <mxPoint x="385" y="420" />
+            <mxPoint x="390" y="440" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="brain_curve_3" value="" style="curved=1;endArrow=none;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=none;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="420" y="400" as="sourcePoint" />
+          <mxPoint x="445" y="400" as="targetPoint" />
+          <Array as="points">
+            <mxPoint x="430" y="390" />
+            <mxPoint x="435" y="410" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="brain_curve_4" value="" style="curved=1;endArrow=none;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=none;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="420" y="430" as="sourcePoint" />
+          <mxPoint x="445" y="430" as="targetPoint" />
+          <Array as="points">
+            <mxPoint x="430" y="420" />
+            <mxPoint x="435" y="440" />
+          </Array>
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Marker 01 (Left) -->
+      <mxCell id="marker_01" value="01" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#D97D28;strokeColor=#D97D28;strokeWidth=2;dashed=1;fontColor=#FFFFFF;fontSize=20;fontStyle=1" vertex="1" parent="1">
+        <mxGeometry x="300" y="400" width="50" height="50" as="geometry" />
+      </mxCell>
+      <mxCell id="label_01" value="新哺乳动物动物脑（大脑&lt;br&gt;皮层）—理智脑" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="80" y="405" width="210" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Marker 02 (Top Right) -->
+      <mxCell id="marker_02" value="02" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=2;dashed=1;fontColor=#666666;fontSize=20;" vertex="1" parent="1">
+        <mxGeometry x="470" y="350" width="50" height="50" as="geometry" />
+      </mxCell>
+      <mxCell id="label_02" value="古哺乳动物脑——情绪脑" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="530" y="360" width="200" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Marker 03 (Bottom Right) -->
+      <mxCell id="marker_03" value="03" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#CCCCCC;strokeWidth=2;dashed=1;fontColor=#666666;fontSize=20;" vertex="1" parent="1">
+        <mxGeometry x="470" y="450" width="50" height="50" as="geometry" />
+      </mxCell>
+      <mxCell id="label_03" value="爬行动物脑——本能脑" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="530" y="460" width="200" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Decorative Drops (Bottom Left) -->
+      <mxCell id="deco_drop_1" value="" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#D97D28;strokeColor=none;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="60" y="940" width="20" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="deco_drop_2" value="" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=none;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="90" y="960" width="15" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="deco_drop_3" value="" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=none;opacity=60;" vertex="1" parent="1">
+        <mxGeometry x="140" y="930" width="10" height="15" as="geometry" />
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

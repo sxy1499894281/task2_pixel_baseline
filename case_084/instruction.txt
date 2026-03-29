@@ -1,0 +1,1 @@
+Move the 'Inform IT Department' node to the right, change it to a circle, and adjust the connection lines

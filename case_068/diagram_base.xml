@@ -1,0 +1,91 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Red Vertical Side Bar -->
+        <mxCell id="red_bar" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=24;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="60" height="510" as="geometry" />
+        </mxCell>
+        
+        <!-- Red Steps -->
+        <mxCell id="red_1" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="red_2" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="red_3" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="red_4" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="red_5" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="red_6" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D32F2F;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="240" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Blue Steps -->
+        <mxCell id="blue_1" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blue_2" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="130" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blue_3" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blue_4" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blue_5" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blue_6" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="240" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Blue Vertical Side Bar -->
+        <mxCell id="blue_bar" value="职务名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#FFFFFF;strokeWidth=3;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=24;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="60" height="510" as="geometry" />
+        </mxCell>
+
+        <!-- Edges (Red) -->
+        <mxCell id="edge_r1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="red_1" target="red_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_r2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="red_2" target="red_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_r3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="red_3" target="red_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_r4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="red_4" target="red_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_r5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="red_5" target="red_6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Edges (Blue) -->
+        <mxCell id="edge_b1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="blue_1" target="blue_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="blue_2" target="blue_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="blue_3" target="blue_4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="blue_4" target="blue_5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=8;endArrow=chevron;endFill=1;shadow=1;" edge="1" parent="1" source="blue_5" target="blue_6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>

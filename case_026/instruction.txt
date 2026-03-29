@@ -1,0 +1,1 @@
+In the '银行接入' area, delete the '...' node, move the '网点' node to the bottom, change the '网点' node to gray, add a dashed arrow from '网点' to '通信网关', and set the arrow color to red

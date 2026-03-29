@@ -1,0 +1,1 @@
+Delete the '03' circle and its label '爬行动物脑——本能脑', move the '02' circle and its label down to where '03' was, and change the text inside the moved circle to '03'

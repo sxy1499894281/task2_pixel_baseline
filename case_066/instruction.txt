@@ -1,0 +1,1 @@
+In the bottom-right section, move the dark blue infographic box upwards, change its fill color to light gray, and update the text inside it to 'New Data'

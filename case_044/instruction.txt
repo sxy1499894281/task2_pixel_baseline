@@ -1,0 +1,1 @@
+Delete the dashed orange trend line, delete the '周日' label and the three bars above it, and change the chart title to 'Weekly Trend'

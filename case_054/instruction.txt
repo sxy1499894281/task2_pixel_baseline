@@ -1,0 +1,1 @@
+Change the background color of the '01.数据分析' card to light blue, change the ring color to red, and move the computer icon slightly upwards

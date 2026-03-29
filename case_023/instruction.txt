@@ -1,0 +1,1 @@
+Add a new node to the left of the red block, set its text to 'Trigger', change it to a diamond shape, set its color to yellow, add an arrow from it to the red block, and make the arrow thick

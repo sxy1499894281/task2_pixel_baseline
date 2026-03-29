@@ -1,0 +1,1 @@
+Change the '合作伙伴接入' box on the left to blue, make it larger, and change its text to 'External Systems'

@@ -1,0 +1,1 @@
+Delete the yellow dashed arrow in the right diagram, move the 'f1' node connected to it to the right, and change the 'f1' node's color to orange

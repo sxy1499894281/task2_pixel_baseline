@@ -1,0 +1,1 @@
+Add a new node with the text 'Conclusion' below the dashed box on the left, change its shape to an ellipse, fill it with green, add an arrow from the last node inside that dashed box to this new node, and set the arrow to a thick line

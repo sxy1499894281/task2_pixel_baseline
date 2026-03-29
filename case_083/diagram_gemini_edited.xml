@@ -1,0 +1,115 @@
+<mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      
+      <!-- Node 1: Start Offboarding Process -->
+      <mxCell id="node_start" value="Start Offboarding Process" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="310" y="40" width="220" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Node 2: Does Employee Resign? (Decision) -->
+      <mxCell id="node_decision" value="Does Employee Resign?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="300" y="130" width="240" height="240" as="geometry" />
+      </mxCell>
+
+      <!-- Node 3: HR Exit Interview (Left Branch) -->
+      <mxCell id="node_hr" value="HR Exit Interview" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="100" y="440" width="200" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Node 4: Inform IT Department (Right Branch) -->
+      <mxCell id="node_it" value="Inform IT Department" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="540" y="440" width="200" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Node 5: Revoke Access (Merge) -->
+      <mxCell id="node_revoke" value="Revoke Access to Company Systems" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="260" y="540" width="320" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Node 6: Final Paycheck Process -->
+      <mxCell id="node_paycheck" value="Final Paycheck Process" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="310" y="630" width="220" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Node 7: Return Company Property -->
+      <mxCell id="node_property" value="Return Company Property" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="310" y="720" width="220" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Node 8: Update Employee Records -->
+      <mxCell id="node_records" value="Update Employee Records" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="310" y="900" width="220" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Node 9: Offboarding Complete -->
+      <mxCell id="node_complete" value="Offboarding Complete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6FA;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="310" y="990" width="220" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Edge 1: Start -> Decision -->
+      <mxCell id="edge_1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="node_start" target="node_decision">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Edge 2: Decision -> HR (Yes) -->
+      <mxCell id="edge_2" value="Yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;fontColor=#000000;" edge="1" parent="1" source="node_decision" target="node_hr">
+        <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="200" y="440" as="targetPoint" />
+            <!-- Using exitX/Y to simulate coming from the bottom-left slope -->
+            <mxPoint as="offset" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Edge 3: Decision -> IT (No) -->
+      <mxCell id="edge_3" value="No" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;labelBackgroundColor=#ffffff;fontColor=#000000;" edge="1" parent="1" source="node_decision" target="node_it">
+        <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="310" as="sourcePoint" />
+            <mxPoint x="640" y="440" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Edge 4: HR -> Revoke (Curved) -->
+      <mxCell id="edge_4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;entryX=0.14;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="node_hr" target="node_revoke">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Edge 5: IT -> Revoke (Curved) -->
+      <mxCell id="edge_5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;entryX=0.86;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="node_it" target="node_revoke">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Edge 6: Revoke -> Paycheck -->
+      <mxCell id="edge_6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="node_revoke" target="node_paycheck">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Edge 7: Paycheck -> Property -->
+      <mxCell id="edge_7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="node_paycheck" target="node_property">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Node: Exit Survey -->
+      <mxCell id="node_survey" value="Exit Survey" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF00;strokeColor=#9673A6;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="310" y="810" width="220" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Edge: Property -> Survey -->
+      <mxCell id="edge_property_survey" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="node_property" target="node_survey">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Edge: Survey -> Records -->
+      <mxCell id="edge_survey_records" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="node_survey" target="node_records">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Edge 9: Records -> Complete -->
+      <mxCell id="edge_9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="node_records" target="node_complete">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

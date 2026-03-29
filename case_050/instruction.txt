@@ -1,0 +1,1 @@
+Delete the blue circle icon and the bar symbol inside it, move the '三月份业绩18万' text to the left, change the text content to 'Peak Performance', enlarge the text box, add a new arrow connecting this text to the highest point on the line chart, and set the arrow to dashed

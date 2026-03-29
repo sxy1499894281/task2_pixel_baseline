@@ -1,0 +1,193 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+
+      <!-- ============================================================
+           PANEL B: BACKGROUND CONTAINERS (Defined first for Z-Order)
+           ============================================================ -->
+      <!-- Top Container (Virtual Node Group) -->
+      <mxCell id="b_cont_top" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;dashed=1;arcSize=20;" vertex="1" parent="1">
+        <mxGeometry x="600" y="75" width="130" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Bottom Container (Virtual Node Group) -->
+      <mxCell id="b_cont_bot" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;dashed=1;arcSize=20;" vertex="1" parent="1">
+        <mxGeometry x="600" y="235" width="130" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Root Node (Dashed Circle) -->
+      <mxCell id="b_root" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+        <mxGeometry x="520" y="180" width="40" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           PANEL A: NODES
+           ============================================================ -->
+      <!-- Node A1 -->
+      <mxCell id="a_A1" value="A1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="40" y="160" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Node B1 -->
+      <mxCell id="a_B1" value="B1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="160" y="100" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Node B2 -->
+      <mxCell id="a_B2" value="B2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="160" y="220" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Node C1 -->
+      <mxCell id="a_C1" value="C1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="280" y="60" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Node C2 -->
+      <mxCell id="a_C2" value="C2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="280" y="140" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Labels Q1, Q2, Q3 -->
+      <mxCell id="a_Q1" value="Q1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="400" y="65" width="40" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="a_Q2" value="Q2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="400" y="145" width="40" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="a_Q3" value="Q3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="280" y="225" width="40" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Caption (a) -->
+      <mxCell id="a_cap" value="(a) Binary edge assignment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="100" y="320" width="200" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           PANEL B: NODES (Foreground)
+           ============================================================ -->
+      <!-- Nodes inside Top Container -->
+      <mxCell id="b_A1_top" value="A1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="605" y="80" width="60" height="40" as="geometry" />
+      </mxCell>
+      <mxCell id="b_B1_top" value="B1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="665" y="80" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Nodes inside Bottom Container -->
+      <mxCell id="b_A1_bot" value="A1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="605" y="240" width="60" height="40" as="geometry" />
+      </mxCell>
+      <mxCell id="b_B2_bot" value="B2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="665" y="240" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- C Nodes Panel B -->
+      <mxCell id="b_C1" value="C1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="800" y="40" width="60" height="40" as="geometry" />
+      </mxCell>
+      <mxCell id="b_C2" value="C2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#d6b656;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="800" y="120" width="60" height="40" as="geometry" />
+      </mxCell>
+
+      <!-- Labels Q1, Q2, Q3 Panel B -->
+      <mxCell id="b_Q1" value="Q1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="920" y="45" width="40" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="b_Q2" value="Q2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="920" y="125" width="40" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="b_Q3" value="Q3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="780" y="245" width="40" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Label "virtual nodes" -->
+      <mxCell id="b_lbl_virt" value="virtual nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="600" y="50" width="130" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Caption (b) -->
+      <mxCell id="b_cap" value="(b) Virtual tree based on the assignment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="600" y="320" width="250" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           EDGES: PANEL A
+           ============================================================ -->
+      <!-- A1 -> B1 (Label 1) -->
+      <mxCell id="edge_a_1" value="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="a_A1" target="a_B1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- A1 -> B2 (Label 1) -->
+      <mxCell id="edge_a_2" value="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="a_A1" target="a_B2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- B1 -> C1 (Label 0) -->
+      <mxCell id="edge_a_3" value="0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="a_B1" target="a_C1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- B1 -> C2 (Label 0) -->
+      <mxCell id="edge_a_4" value="0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="a_B1" target="a_C2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- C1 -> Q1 -->
+      <mxCell id="edge_a_5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="a_C1" target="a_Q1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- C2 -> Q2 -->
+      <mxCell id="edge_a_6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="a_C2" target="a_Q2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- B2 -> Q3 -->
+      <mxCell id="edge_a_7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="a_B2" target="a_Q3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           EDGES: PANEL B
+           ============================================================ -->
+      <!-- Root -> Top Container -->
+      <mxCell id="edge_b_1" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="b_root" target="b_cont_top">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Root -> Bottom Container -->
+      <mxCell id="edge_b_2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="b_root" target="b_cont_bot">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Top Container -> C1 -->
+      <mxCell id="edge_b_3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="b_cont_top" target="b_C1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Top Container -> C2 -->
+      <mxCell id="edge_b_4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="b_cont_top" target="b_C2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- C1 -> Q1 -->
+      <mxCell id="edge_b_5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="b_C1" target="b_Q1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- C2 -> Q2 -->
+      <mxCell id="edge_b_6" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="b_C2" target="b_Q2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- Bottom Container -> Q3 -->
+      <mxCell id="edge_b_7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="b_cont_bot" target="b_Q3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

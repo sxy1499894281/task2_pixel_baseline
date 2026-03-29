@@ -1,0 +1,251 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" background="#ffffff" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+
+      <!-- ==================== BACKGROUNDS (Layer -1) ==================== -->
+      <mxCell id="bg_p1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7E6E6;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="120" y="80" width="150" height="340" as="geometry" />
+      </mxCell>
+      <mxCell id="bg_p2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7E6E6;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="280" y="80" width="190" height="340" as="geometry" />
+      </mxCell>
+      <mxCell id="bg_p3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7E6E6;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="480" y="80" width="270" height="340" as="geometry" />
+      </mxCell>
+      <mxCell id="bg_p4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7E6E6;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="760" y="80" width="110" height="340" as="geometry" />
+      </mxCell>
+      <mxCell id="bg_r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7E6E6;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="880" y="80" width="150" height="340" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== ICONS (Left Column) ==================== -->
+      <mxCell id="icon_c1" value="" style="shape=mxgraph.signs.tech.computer;html=1;fillColor=none;strokeColor=#000000;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+        <mxGeometry x="40" y="100" width="50" height="40" as="geometry" />
+      </mxCell>
+      <mxCell id="icon_c2" value="" style="shape=mxgraph.signs.tech.computer;html=1;fillColor=none;strokeColor=#000000;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+        <mxGeometry x="40" y="200" width="50" height="40" as="geometry" />
+      </mxCell>
+      <mxCell id="icon_db" value="" style="shape=mxgraph.flowchart.database;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="40" y="300" width="50" height="50" as="geometry" />
+      </mxCell>
+      <mxCell id="ellipsis_v" value="&lt;b&gt;...&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+        <mxGeometry x="50" y="260" width="30" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== NODES (Blocks) ==================== -->
+      <!-- Phase 1: Init -->
+      <mxCell id="init" value="init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="165" y="310" width="60" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Phase 2: Local Computation -->
+      <mxCell id="data_p2_r1" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="290" y="110" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="hist_p2_r1" value="hist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="390" y="110" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="data_p2_r2" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="290" y="210" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="hist_p2_r2" value="hist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="390" y="210" width="60" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Phase 3: Aggregation -->
+      <mxCell id="agg" value="agg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="500" y="310" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="hist_p3" value="hist" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="590" y="310" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="node" value="node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="680" y="310" width="60" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Phase 4: Update -->
+      <mxCell id="upd_r1" value="update" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="785" y="110" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="upd_r2" value="update" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="785" y="210" width="60" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Round 2 -->
+      <mxCell id="data_r2_r1" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="900" y="110" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="data_r2_r2" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="900" y="210" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="data_r2_r3" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="900" y="310" width="60" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="ellipsis_r2" value="&lt;b&gt;...&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="1000" y="215" width="30" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== BRACES & LABELS ==================== -->
+      <!-- Top Braces (Rotation 90 for horizontal, opening down/point up) -->
+      <mxCell id="brace_t1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+        <mxGeometry x="185" y="-5" width="20" height="150" as="geometry" />
+      </mxCell>
+      <mxCell id="lbl_t1" value="① Initialization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="120" y="50" width="150" height="20" as="geometry" />
+      </mxCell>
+
+      <mxCell id="brace_t2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+        <mxGeometry x="365" y="-15" width="20" height="190" as="geometry" />
+      </mxCell>
+      <mxCell id="lbl_t2" value="② Local computation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="280" y="50" width="190" height="20" as="geometry" />
+      </mxCell>
+
+      <mxCell id="brace_t3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+        <mxGeometry x="605" y="-55" width="20" height="270" as="geometry" />
+      </mxCell>
+      <mxCell id="lbl_t3" value="③ Aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="480" y="50" width="270" height="20" as="geometry" />
+      </mxCell>
+
+      <mxCell id="brace_t4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+        <mxGeometry x="805" y="25" width="20" height="110" as="geometry" />
+      </mxCell>
+      <mxCell id="lbl_t4" value="④ Update" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="760" y="50" width="110" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Bottom Braces (Rotation -90 for horizontal, opening up/point down) -->
+      <mxCell id="brace_b1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+        <mxGeometry x="495" y="40" width="20" height="750" as="geometry" />
+      </mxCell>
+      <mxCell id="lbl_b1" value="Round 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="440" y="440" width="130" height="20" as="geometry" />
+      </mxCell>
+
+      <mxCell id="brace_b2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+        <mxGeometry x="945" y="340" width="20" height="150" as="geometry" />
+      </mxCell>
+      <mxCell id="lbl_b2" value="Round 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxGeometry x="890" y="440" width="130" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== LEGEND ==================== -->
+      <mxCell id="legend_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxGeometry x="280" y="470" width="600" height="40" as="geometry" />
+      </mxCell>
+      <mxCell id="leg_func_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=none;" vertex="1" parent="legend_box">
+        <mxGeometry x="30" y="10" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="leg_func_txt" value="function" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="legend_box">
+        <mxGeometry x="80" y="10" width="60" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="leg_stat_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;strokeColor=none;" vertex="1" parent="legend_box">
+        <mxGeometry x="180" y="10" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="leg_stat_txt" value="statistic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="legend_box">
+        <mxGeometry x="230" y="10" width="60" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="leg_priv_box" value="" style="shape=triangle;whiteSpace=wrap;html=1;fillColor=#FFC000;strokeColor=none;direction=north;" vertex="1" parent="legend_box">
+        <mxGeometry x="330" y="10" width="20" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="leg_priv_txt" value="privacy enhancement" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="legend_box">
+        <mxGeometry x="360" y="10" width="150" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== EDGES (Solid Flow) ==================== -->
+      <!-- 1. Comp1 -> Init -->
+      <mxCell id="e1" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="icon_c1" target="init">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 2. Comp2 -> Init -->
+      <mxCell id="e2" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="icon_c2" target="init">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 3. Init -> Data1 -->
+      <mxCell id="e3" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="init" target="data_p2_r1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 4. Init -> Data2 -->
+      <mxCell id="e4" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="init" target="data_p2_r2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 5. Data1 -> Hist1 -->
+      <mxCell id="e5" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="data_p2_r1" target="hist_p2_r1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 6. Data2 -> Hist2 -->
+      <mxCell id="e6" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="data_p2_r2" target="hist_p2_r2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 7. Hist1 -> Agg (Privacy) -->
+      <mxCell id="e7" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="hist_p2_r1" target="agg">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 8. Hist2 -> Agg (Privacy) -->
+      <mxCell id="e8" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="hist_p2_r2" target="agg">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 9. Agg -> Hist3 -->
+      <mxCell id="e9" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="agg" target="hist_p3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 10. Hist3 -> Node -->
+      <mxCell id="e10" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="hist_p3" target="node">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 11. Node -> Update1 -->
+      <mxCell id="e11" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node" target="upd_r1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 12. Node -> Update2 -->
+      <mxCell id="e12" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=classic;endFill=1;strokeWidth=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node" target="upd_r2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== EDGES (Dashed Timeline) ==================== -->
+      <!-- 13. Comp1 -> Data1 -->
+      <mxCell id="e13" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="icon_c1" target="data_p2_r1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 14. Comp2 -> Data2 -->
+      <mxCell id="e14" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="icon_c2" target="data_p2_r2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- 15. DB -> Init -->
+      <mxCell id="e15" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="icon_db" target="init">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <!-- Extra Dashed Lines for Completeness -->
+      <mxCell id="e16" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="hist_p2_r1" target="upd_r1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="e17" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="upd_r1" target="data_r2_r1">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="e18" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="hist_p2_r2" target="upd_r2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="e19" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="upd_r2" target="data_r2_r2">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="e20" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="init" target="agg">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+      <mxCell id="e21" value="" style="edgeStyle=none;html=1;strokeColor=#000000;endArrow=none;strokeWidth=1;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="node" target="data_r2_r3">
+        <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+
+      <!-- ==================== PRIVACY TRIANGLES ==================== -->
+      <!-- Placed manually on edges e7 and e8 -->
+      <mxCell id="priv_tri_1" value="" style="shape=triangle;whiteSpace=wrap;html=1;fillColor=#FFC000;strokeColor=none;direction=north;" vertex="1" parent="1">
+        <mxGeometry x="485" y="260" width="15" height="15" as="geometry" />
+      </mxCell>
+      <mxCell id="priv_tri_2" value="" style="shape=triangle;whiteSpace=wrap;html=1;fillColor=#FFC000;strokeColor=none;direction=north;" vertex="1" parent="1">
+        <mxGeometry x="485" y="280" width="15" height="15" as="geometry" />
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

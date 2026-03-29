@@ -1,0 +1,1 @@
+Move the final score box '78' on Physical Page 2 upwards, change its color to green, and adjust the connection lines

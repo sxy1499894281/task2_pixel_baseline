@@ -1,0 +1,1 @@
+Change the text of the '沟通能力' tag in the first card to 'Communication'

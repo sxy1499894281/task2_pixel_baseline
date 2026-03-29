@@ -1,0 +1,1 @@
+In the left diagram, delete the 'error' node connected to the second '=' sign and the arrow pointing to it. Then, add a new node labeled 'Status' next to that '=' sign, change it to a green ellipse, add a dashed arrow from the '=' sign to this new node

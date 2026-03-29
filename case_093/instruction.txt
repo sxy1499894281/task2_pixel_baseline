@@ -1,0 +1,1 @@
+Delete the '?' help icon at the top right, add a new node in its place, change it to a circle, and set its color to green

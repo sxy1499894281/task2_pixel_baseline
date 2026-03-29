@@ -1,0 +1,1 @@
+Delete the gray 'March' bar, move the 'April' bar to the left, make the 'April' bar taller, change it to green, add an arrow connecting 'April' to 'June', and make the arrow dashed

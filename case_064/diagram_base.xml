@@ -1,0 +1,332 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+
+      <!-- ============================================================
+           LAYER 1: BACKGROUNDS (Must be first for Z-Order)
+           ============================================================ -->
+      <!-- Quadrant 3 Background Container -->
+      <mxCell id="bg_q3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="40" y="460" width="540" height="280" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           LAYER 2: HEADER
+           ============================================================ -->
+      <!-- Main Title -->
+      <mxCell id="header_title" value="&lt;h1 style=&quot;margin:0;font-size:32px;&quot;&gt;&lt;font color=&quot;#00A0E9&quot;&gt;How&lt;/font&gt; to expand existing business?&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+        <mxGeometry x="40" y="40" width="800" height="50" as="geometry" />
+      </mxCell>
+
+      <!-- Header Separator Line -->
+      <mxCell id="header_line" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="40" y="110" as="sourcePoint" />
+          <mxPoint x="1160" y="110" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- ============================================================
+           LAYER 3: QUADRANT 1 (Top-Left) - Concept
+           ============================================================ -->
+      <!-- Q1 Title -->
+      <mxCell id="q1_title" value="&lt;b&gt;&lt;font style=&quot;font-size:18px&quot;&gt;Concept:&lt;/font&gt;&lt;/b&gt; &lt;font style=&quot;font-size:18px&quot;&gt;[Insert description]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+        <mxGeometry x="40" y="150" width="500" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Q1 Subtitle -->
+      <mxCell id="q1_sub" value="[Insert more detailed description, if applicable]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="40" y="190" width="500" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Q1 Placeholder Box -->
+      <mxCell id="q1_box" value="Infographic, numerical data,&lt;br&gt;key numbers or similar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;fontColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxGeometry x="110" y="240" width="380" height="170" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           LAYER 4: QUADRANT 2 (Top-Right) - Bar Chart Data
+           ============================================================ -->
+      <!-- Q2 Title -->
+      <mxCell id="q2_title" value="&lt;b&gt;&lt;font style=&quot;font-size:18px&quot;&gt;Data:&lt;/font&gt;&lt;/b&gt; &lt;font style=&quot;font-size:18px&quot;&gt;[Insert supporting evidence/data, if applicable]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+        <mxGeometry x="640" y="150" width="500" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Chart Grid Lines (Background of chart) -->
+      <mxCell id="q2_grid_1" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="700" y="220" as="sourcePoint" />
+          <mxPoint x="1140" y="220" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q2_grid_2" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="700" y="250" as="sourcePoint" />
+          <mxPoint x="1140" y="250" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q2_grid_3" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="700" y="280" as="sourcePoint" />
+          <mxPoint x="1140" y="280" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q2_grid_4" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="700" y="310" as="sourcePoint" />
+          <mxPoint x="1140" y="310" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q2_axis_x" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="700" y="340" as="sourcePoint" />
+          <mxPoint x="1140" y="340" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q2_axis_y" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="700" y="220" as="sourcePoint" />
+          <mxPoint x="700" y="340" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Y-Axis Labels -->
+      <mxCell id="q2_lbl_20" value="20.0%" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="650" y="210" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_lbl_15" value="15.0%" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="650" y="240" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_lbl_10" value="10.0%" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="650" y="270" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_lbl_5" value="5.0%" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="650" y="300" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_lbl_0" value="0.0%" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="650" y="330" width="40" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Bars -->
+      <!-- Company (Blue) -->
+      <mxCell id="q2_bar1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00A0E9;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="720" y="295" width="25" height="45" as="geometry" />
+      </mxCell>
+      <!-- Competitors (Navy) -->
+      <mxCell id="q2_bar2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="770" y="290" width="25" height="50" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_bar3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="820" y="285" width="25" height="55" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_bar4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="870" y="275" width="25" height="65" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_bar5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="920" y="272" width="25" height="68" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_bar6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="970" y="260" width="25" height="80" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_bar7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="1020" y="245" width="25" height="95" as="geometry" />
+      </mxCell>
+
+      <!-- X-Axis Labels (Rotated) -->
+      <mxCell id="q2_xlbl1" value="[Company]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;rotation=-45;" vertex="1" parent="1">
+        <mxGeometry x="700" y="360" width="60" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_xlbl2" value="[Competitor 1]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;rotation=-45;" vertex="1" parent="1">
+        <mxGeometry x="750" y="360" width="70" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_xlbl3" value="[Competitor 2]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;rotation=-45;" vertex="1" parent="1">
+        <mxGeometry x="800" y="360" width="70" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_xlbl4" value="[Competitor 3]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;rotation=-45;" vertex="1" parent="1">
+        <mxGeometry x="850" y="360" width="70" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_xlbl5" value="[Competitor 4]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;rotation=-45;" vertex="1" parent="1">
+        <mxGeometry x="900" y="360" width="70" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_xlbl6" value="[Competitor 5]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;rotation=-45;" vertex="1" parent="1">
+        <mxGeometry x="950" y="360" width="70" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q2_xlbl7" value="[Competitor 6]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;rotation=-45;" vertex="1" parent="1">
+        <mxGeometry x="1000" y="360" width="70" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           LAYER 5: QUADRANT 3 (Bottom-Left) - Potential / Line Chart
+           ============================================================ -->
+      <!-- Q3 Title -->
+      <mxCell id="q3_title" value="&lt;b&gt;&lt;font style=&quot;font-size:18px&quot;&gt;Potential:&lt;/font&gt;&lt;/b&gt; &lt;font style=&quot;font-size:18px&quot;&gt;[Insert numerical result of sub-initiative/lever]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+        <mxGeometry x="50" y="475" width="500" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_unit" value="[Unit]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontColor=#666666;" vertex="1" parent="1">
+        <mxGeometry x="50" y="505" width="100" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Chart Grid -->
+      <mxCell id="q3_grid_1" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="90" y="540" as="sourcePoint" />
+          <mxPoint x="540" y="540" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_grid_2" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="90" y="580" as="sourcePoint" />
+          <mxPoint x="540" y="580" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_grid_3" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="90" y="620" as="sourcePoint" />
+          <mxPoint x="540" y="620" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_axis_x" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="90" y="660" as="sourcePoint" />
+          <mxPoint x="540" y="660" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_axis_y" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="90" y="540" as="sourcePoint" />
+          <mxPoint x="90" y="660" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Y-Axis Labels -->
+      <mxCell id="q3_lbl_600" value="600" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="40" y="530" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_lbl_400" value="400" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="40" y="570" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_lbl_200" value="200" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="40" y="610" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_lbl_0" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="40" y="650" width="40" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- X-Axis Labels -->
+      <mxCell id="q3_xlbl_2018" value="2018" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="80" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_xlbl_2019" value="2019" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="135" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_xlbl_2020" value="2020" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="190" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_xlbl_2021" value="2021" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="245" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_xlbl_2022" value="2022" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="300" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_xlbl_2023" value="2023" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="355" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_xlbl_2024" value="2024" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="410" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_xlbl_2025" value="2025" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="465" y="670" width="40" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- Data Lines -->
+      <!-- Category 1 (Blue) -->
+      <mxCell id="q3_line1_solid" value="" style="endArrow=none;html=1;strokeColor=#00A0E9;strokeWidth=3;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="100" y="610" as="sourcePoint" />
+          <mxPoint x="265" y="600" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_line1_dashed" value="" style="endArrow=none;html=1;strokeColor=#00A0E9;strokeWidth=3;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="265" y="600" as="sourcePoint" />
+          <mxPoint x="520" y="560" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Category 2 (Navy) -->
+      <mxCell id="q3_line2_solid" value="" style="endArrow=none;html=1;strokeColor=#001E35;strokeWidth=3;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="100" y="650" as="sourcePoint" />
+          <mxPoint x="265" y="650" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_line2_dashed" value="" style="endArrow=none;html=1;strokeColor=#001E35;strokeWidth=3;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="265" y="650" as="sourcePoint" />
+          <mxPoint x="520" y="640" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Legend -->
+      <mxCell id="q3_leg1_line" value="" style="endArrow=none;html=1;strokeColor=#00A0E9;strokeWidth=3;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="190" y="705" as="sourcePoint" />
+          <mxPoint x="220" y="705" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_leg1_text" value="Category 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="225" y="695" width="80" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="q3_leg2_line" value="" style="endArrow=none;html=1;strokeColor=#001E35;strokeWidth=3;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="300" y="705" as="sourcePoint" />
+          <mxPoint x="330" y="705" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="q3_leg2_text" value="Category 2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+        <mxGeometry x="335" y="695" width="80" height="20" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           LAYER 6: QUADRANT 4 (Bottom-Right) - Data
+           ============================================================ -->
+      <!-- Q4 Title -->
+      <mxCell id="q4_title" value="&lt;b&gt;&lt;font style=&quot;font-size:18px&quot;&gt;Data:&lt;/font&gt;&lt;/b&gt; &lt;font style=&quot;font-size:18px&quot;&gt;[Insert supporting evidence/data, if applicable]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+        <mxGeometry x="640" y="475" width="500" height="30" as="geometry" />
+      </mxCell>
+
+      <!-- Q4 Text -->
+      <mxCell id="q4_text" value="&lt;ul&gt;&lt;li&gt;[Insert key numbers/data&lt;br&gt;points/arguments]&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;fontSize=14;" vertex="1" parent="1">
+        <mxGeometry x="640" y="520" width="250" height="100" as="geometry" />
+      </mxCell>
+
+      <!-- Q4 Box -->
+      <mxCell id="q4_box" value="Infographic,&lt;br&gt;key numbers or&lt;br&gt;similar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001E35;strokeColor=none;fontColor=#FFFFFF;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxGeometry x="940" y="540" width="170" height="160" as="geometry" />
+      </mxCell>
+
+      <!-- ============================================================
+           LAYER 7: FOOTER
+           ============================================================ -->
+      <!-- Footer Line -->
+      <mxCell id="footer_line" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1">
+        <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxPoint x="40" y="760" as="sourcePoint" />
+          <mxPoint x="1160" y="760" as="targetPoint" />
+        </mxGeometry>
+      </mxCell>
+
+      <!-- Footer Text -->
+      <mxCell id="footer_source" value="Source: [sanitized]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="40" y="765" width="200" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="footer_company" value="Company Name" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="1000" y="765" width="100" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="footer_page" value="86" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxGeometry x="1130" y="765" width="30" height="20" as="geometry" />
+      </mxCell>
+
+    </root>
+  </mxGraphModel>

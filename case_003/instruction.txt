@@ -1,0 +1,1 @@
+Change the bottom 'GEMM' node to a diamond shape, change its text to 'Process', and change the color of the arrow pointing to it to red

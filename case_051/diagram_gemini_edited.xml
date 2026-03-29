@@ -1,0 +1,297 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ==================== BACKGROUND LAYERS ==================== -->
+
+        <!-- Summary Banner Background -->
+        <mxCell id="banner_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="1120" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Left Panel Container -->
+        <mxCell id="left_panel_container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#D3D3D3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="290" height="580" as="geometry" />
+        </mxCell>
+
+        <!-- Right Panel Container -->
+        <mxCell id="right_panel_container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#D3D3D3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="810" height="580" as="geometry" />
+        </mxCell>
+
+        <!-- Left Panel Header Background -->
+        <mxCell id="left_header_bg" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#FFFFFF&quot;&gt;总业绩完成情况&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3A7BD5;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="300" width="260" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Right Panel Metric Box Background -->
+        <mxCell id="right_metric_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="360" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== HEADER SECTION ==================== -->
+
+        <!-- Main Title -->
+        <mxCell id="main_title" value="&lt;font style=&quot;font-size: 36px&quot; color=&quot;#004080&quot;&gt;&lt;b&gt;个人业绩汇报&lt;/b&gt; Powerpoint Template&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="700" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Subtitle -->
+        <mxCell id="subtitle" value="&lt;font style=&quot;font-size: 24px&quot; color=&quot;#2060A0&quot;&gt;Work Arrangement&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="900" y="50" width="260" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Header Line -->
+        <mxCell id="header_line" value="" style="endArrow=none;html=1;strokeColor=#004080;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="100" as="sourcePoint" />
+            <mxPoint x="1160" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================== BANNER CONTENT ==================== -->
+
+        <!-- Banner Text -->
+        <mxCell id="banner_text" value="&lt;font color=&quot;#FFFFFF&quot; style=&quot;font-size: 16px&quot;&gt;在七至十一月期间，我们通过持续的市场调研和客户反馈机制，不断优化产品和服务，稳定了销售额并提升了客户忠诚度。团队的执行能力和创新意识&lt;br&gt;得到了有效发挥，为公司的长期发展奠定了坚实基础。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="900" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Growth Arrow Graphic (Swoosh) -->
+        <mxCell id="growth_arrow" value="" style="shape=curvedArrow;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== LEFT PANEL CONTENT ==================== -->
+
+        <!-- Donut Chart Group -->
+        <!-- Background Circle (Grey) -->
+        <mxCell id="donut_bg" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E0E0E0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="410" width="200" height="200" as="geometry" />
+        </mxCell>
+        
+        <!-- Value Segment (Blue Pie) - Simulating 65% -->
+        <mxCell id="donut_val" value="" style="shape=mxgraph.basic.pie;whiteSpace=wrap;html=1;fillColor=#3A7BD5;strokeColor=none;startAngle=270;endAngle=144;dx=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="410" width="200" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Center Hole (White) -->
+        <mxCell id="donut_hole" value="&lt;font style=&quot;font-size: 40px&quot; color=&quot;#004080&quot;&gt;&lt;b&gt;65%&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="125" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Annotation Tag 1 -->
+        <mxCell id="anno_tag_1" value="&lt;font color=&quot;#FFFFFF&quot;&gt;总业绩超额完成&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2060A0;strokeColor=none;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Left Panel Description -->
+        <mxCell id="left_desc" value="&lt;font color=&quot;#333333&quot;&gt;三月份的业绩达到了年度峰值，这反映了我们在市场定位和产品推广方面的精准策略。通过强化与关键客户的合作关系，以及灵活应对市场需求变化，我们成功地扩大了市场份额。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="250" height="150" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== RIGHT PANEL CONTENT ==================== -->
+
+        <!-- Icon Group -->
+        <mxCell id="icon_circle" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_bar" value="&lt;font color=&quot;#FFFFFF&quot; style=&quot;font-size: 30px&quot;&gt;📊&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- March Performance Text -->
+        <mxCell id="mar_title" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#2060A0&quot;&gt;&lt;b&gt;三月份业绩18万&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="310" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_desc" value="三月份的业绩达到了年度峰值，这反映了我们在市场定位和产品推广方面的精准策略。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Metric Box Content -->
+        <mxCell id="metric_text_left" value="&lt;font color=&quot;#FFFFFF&quot; style=&quot;font-size: 14px&quot;&gt;销售额：每月保持在17万&lt;br&gt;左右的稳定水平。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="330" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="metric_text_right" value="&lt;font color=&quot;#FFFFFF&quot; style=&quot;font-size: 48px&quot;&gt;&lt;b&gt;17万&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="330" width="140" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== LINE CHART RECONSTRUCTION ==================== -->
+        <!-- Chart Area: x=400, y=500, w=720, h=300 -->
+        <!-- Y-Axis Labels -->
+        <mxCell id="y_20" value="20" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y_15" value="15" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y_10" value="10" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="630" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y_5" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="690" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y_0" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="750" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Grid Lines -->
+        <mxCell id="grid_20" value="" style="endArrow=none;html=1;strokeColor=#E0E0E0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="1120" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid_15" value="" style="endArrow=none;html=1;strokeColor=#E0E0E0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="1120" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid_10" value="" style="endArrow=none;html=1;strokeColor=#E0E0E0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+            <mxPoint x="1120" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid_5" value="" style="endArrow=none;html=1;strokeColor=#E0E0E0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="700" as="sourcePoint" />
+            <mxPoint x="1120" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid_0" value="" style="endArrow=none;html=1;strokeColor=#E0E0E0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="760" as="sourcePoint" />
+            <mxPoint x="1120" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- X-Axis Labels -->
+        <mxCell id="x_1" value="1月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="410" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_2" value="2月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_3" value="3月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="530" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_4" value="4月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_5" value="5月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_6" value="6月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="710" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_7" value="7月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="770" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_8" value="8月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="830" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_9" value="9月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="890" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_10" value="10月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="950" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_11" value="11月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x_12" value="12月" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Data Points (Circles) -->
+        <!-- Jan: 14 -> y=592 (approx 580+12) -->
+        <mxCell id="p_1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="422" y="588" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Feb: 15 -> y=580 -->
+        <mxCell id="p_2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="482" y="576" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Mar: 18 -> y=544 -->
+        <mxCell id="p_3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="540" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Apr: 16 -> y=568 -->
+        <mxCell id="p_4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="602" y="564" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- May: 9 -> y=652 -->
+        <mxCell id="p_5" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="662" y="648" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Jun: 12 -> y=616 -->
+        <mxCell id="p_6" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="722" y="612" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Jul: 10 -> y=640 -->
+        <mxCell id="p_7" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="782" y="636" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Aug: 14 -> y=592 -->
+        <mxCell id="p_8" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="842" y="588" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Sep: 9 -> y=652 -->
+        <mxCell id="p_9" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="902" y="648" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Oct: 8 -> y=664 -->
+        <mxCell id="p_10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="962" y="660" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Nov: 16 -> y=568 -->
+        <mxCell id="p_11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1022" y="564" width="8" height="8" as="geometry" />
+        </mxCell>
+        <!-- Dec: 5 -> y=700 -->
+        <mxCell id="p_12" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="696" width="8" height="8" as="geometry" />
+        </mxCell>
+
+        <!-- The Line (Curved) -->
+        <mxCell id="chart_line" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#004080;strokeWidth=3;endArrow=none;" edge="1" parent="1" source="p_1" target="p_12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="486" y="580" />
+              <mxPoint x="546" y="544" />
+              <mxPoint x="606" y="568" />
+              <mxPoint x="666" y="652" />
+              <mxPoint x="726" y="616" />
+              <mxPoint x="786" y="640" />
+              <mxPoint x="846" y="592" />
+              <mxPoint x="906" y="652" />
+              <mxPoint x="966" y="664" />
+              <mxPoint x="1026" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Annotation Tag 2 -->
+        <mxCell id="anno_tag_2" value="&lt;font color=&quot;#FFFFFF&quot;&gt;历史新高&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28A745;strokeColor=none;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== ARROWS ==================== -->
+
+        <!-- Arrow 2: Tag 1 to Donut -->
+        <mxCell id="arrow_2" value="" style="edgeStyle=none;html=1;strokeColor=#2060A0;strokeWidth=2;endArrow=none;startArrow=triangle;startFill=1;" edge="1" parent="1" source="anno_tag_1" target="donut_val">
+          <mxGeometry relative="1" as="geometry">
+             <mxPoint x="255" y="430" as="sourcePoint" />
+             <mxPoint x="255" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Arrow 3: Tag 2 to March Point -->
+        <mxCell id="arrow_3" value="" style="edgeStyle=none;html=1;strokeColor=#28A745;strokeWidth=2;endArrow=none;startArrow=triangle;startFill=1;startSize=8;" edge="1" parent="1" source="anno_tag_2" target="p_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>

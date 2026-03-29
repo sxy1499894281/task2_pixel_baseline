@@ -1,0 +1,33 @@
+<mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1800" math="0" shadow="0">
+    <root>
+      <mxCell id="0" />
+      <mxCell id="1" parent="0" />
+      <mxCell id="blue_graphic" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=none;" vertex="1" parent="1">
+        <mxGeometry x="125" y="230" width="600" height="350" as="geometry" />
+      </mxCell>
+      <mxCell id="header_name" value="Verena Ortlieb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="125" y="40" width="600" height="40" as="geometry" />
+      </mxCell>
+      <mxCell id="divider_line" value="" style="shape=line;html=1;strokeWidth=1;strokeColor=#CCCCCC;align=center;verticalAlign=middle;spacingTop=-1;spacingLeft=0;spacingBottom=0;spacingRight=0;perimeter=backbonePerimeter;" vertex="1" parent="1">
+        <mxGeometry x="125" y="90" width="600" height="10" as="geometry" />
+      </mxCell>
+      <mxCell id="date_meta" value="16.03.2018" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+        <mxGeometry x="125" y="110" width="200" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="article_title" value="The dog in my head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontFamily=Georgia;fontColor=#333333;" vertex="1" parent="1">
+        <mxGeometry x="125" y="140" width="600" height="50" as="geometry" />
+      </mxCell>
+      <mxCell id="reading_time" value="Reading time ~ 3 minutes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+        <mxGeometry x="125" y="190" width="200" height="20" as="geometry" />
+      </mxCell>
+      <mxCell id="body_text" value="&lt;b&gt;Sometimes, my brain behaves like a dog.&lt;/b&gt; A sweet little dog.&lt;br&gt;&lt;br&gt;When I pay attention, keep him occupied, and train him well he is a blast to be around. We have a lot of fun together, get compliments and enjoy our evenings cuddling on the couch.&lt;br&gt;&lt;br&gt;&lt;b&gt;But if I don't pay attention, when I am distracted or forget to occupy this sweet little dog, it goes south. The dog starts to bite the sofa, digs holes into the floor and barks at the mailman.&lt;/b&gt;&lt;br&gt;&lt;br&gt;No matter how sweet the dog is, this behavior isn't welcome in the long run. In the beginning, it might be sweet to watch the puppy catch the mailman or slip on the floor with his small clumsy paws, but as the puppy grows into a bigger dog, he can do a lot of damage.&lt;br&gt;&lt;br&gt;No, it is not possible that I am attentive all the time and always be mindful and occupy my brain with the &quot;right stuff.&quot; Every now and then the thoughts wander. Every now and then negative thoughts take over.&lt;br&gt;&lt;br&gt;That's ok. Every now and then the dog can dig a hole in the garden, may be scared of a loud noise or chase a rabbit in the woods.&lt;br&gt;&lt;br&gt;&lt;b&gt;But it is essential that it is only every now and then. This must not become the rule and may under no circumstances determine my life.&lt;/b&gt;&lt;br&gt;&lt;br&gt;In these situations, it is important to watch out and rethink. Because what happens in my mind is still my decision.&lt;br&gt;&lt;br&gt;And I am not going to allow a scared dog to determine what I do. I will take the dog to my side, show him that it was nothing terrible that scared him, and walk with him in the eerie forest because I know that nothing can happen to me.&lt;br&gt;&lt;br&gt;&lt;b&gt;And in the end, these are the stories I want to tell.&lt;/b&gt; Of the roads that scared me, and the steep slopes I climbed, and the eerie caves I explored. And all with my companion, with my wonderfully behaved dog by my side." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;spacingTop=0;" vertex="1" parent="1">
+        <mxGeometry x="125" y="620" width="600" height="900" as="geometry" />
+      </mxCell>
+      <mxCell id="footer_links" value="Email &amp;nbsp;○&amp;nbsp; Instagram &amp;nbsp;○&amp;nbsp; Twitter &amp;nbsp;○&amp;nbsp; Dribbble" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+        <mxGeometry x="125" y="1550" width="600" height="30" as="geometry" />
+      </mxCell>
+      <mxCell id="copyright_footer" value="© 2022 Verena Ortlieb" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+        <mxGeometry x="125" y="1580" width="600" height="30" as="geometry" />
+      </mxCell>
+    </root>
+  </mxGraphModel>

@@ -1,0 +1,139 @@
+<mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Footer Background (Layer 0) -->
+        <mxCell id="footer_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004080;strokeColor=none;gradientColor=#6688CC;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="1120" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- Card Backgrounds (Layer 1) -->
+        <!-- Row 1 -->
+        <mxCell id="c1_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=none;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="870" y="130" width="280" height="140" as="geometry" />
+        </mxCell>
+        <!-- Row 2 -->
+        <mxCell id="c4_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="870" y="330" width="280" height="140" as="geometry" />
+        </mxCell>
+
+        <!-- Icon Rings (Layer 2) -->
+        <!-- Card 1 Ring (Dark Blue) -->
+        <mxCell id="c1_ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF0000;strokeWidth=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <!-- Card 2 Ring (Medium Blue) -->
+        <mxCell id="c2_ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366CC;strokeWidth=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <!-- Card 3 Ring (Yellow) -->
+        <mxCell id="c3_ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F2B828;strokeWidth=12;" vertex="1" parent="1">
+          <mxGeometry x="820" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <!-- Card 4 Ring (Dark Blue) -->
+        <mxCell id="c4_ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#004080;strokeWidth=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <!-- Card 5 Ring (Medium Blue) -->
+        <mxCell id="c5_ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#3366CC;strokeWidth=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <!-- Card 6 Ring (Yellow) -->
+        <mxCell id="c6_ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F2B828;strokeWidth=12;" vertex="1" parent="1">
+          <mxGeometry x="820" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Icon Emojis (Layer 3) -->
+        <mxCell id="c1_icon" value="🖥️" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="85" y="165" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_icon" value="🎧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="465" y="175" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_icon" value="👤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="845" y="175" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_icon" value="⏰" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="85" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_icon" value="💡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="465" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_icon" value="😊" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="845" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Card Titles (Layer 4) -->
+        <mxCell id="c1_title" value="01.数据分析" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#004080;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_title" value="02.沟通技巧" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3366CC;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_title" value="03.客户服务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F2B828;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_title" value="04.时间管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#004080;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_title" value="05.创新思维" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3366CC;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_title" value="06.情绪管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F2B828;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="340" width="200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Card Descriptions (Layer 5) -->
+        <mxCell id="c1_desc" value="掌握了使用数据分析工具，能够提取关键业务洞察，支持决策制定，提高决策准确性。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_desc" value="提升了与同事和客户的沟通能力，能够更清晰地表达想法和需求，减少误解。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c3_desc" value="学习了更好的客户服务技巧，提高了客户满意度和忠诚度，促成了更多的回头客。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="940" y="180" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c4_desc" value="学会了优先级排序和合理安排工作任务，提升了工作效率，减少了拖延现象。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c5_desc" value="在工作中提出了多项创新建议，推动了流程优化和新项目的实施，提高了工作效率。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c6_desc" value="学习了如何在压力下保持冷静，增强了自我调节能力，提升了工作中的人际关系。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="940" y="380" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Header Elements (Layer 6) -->
+        <mxCell id="header_title" value="&lt;b&gt;述职报告：获得的技能与知识&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;fontColor=#004080;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="header_sub" value="Powerpoint Template" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#3366CC;" vertex="1" parent="1">
+          <mxGeometry x="900" y="45" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="header_line" value="" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#3366CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="90" as="sourcePoint" />
+            <mxPoint x="1160" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Footer Text (Layer 7) -->
+        <mxCell id="footer_text" value="以上技能提升对于职业发展至关重要，能够提高工作效率、增强团队协作和沟通能力，并促进创新思维。这些能力不仅提升了个人竞争力，也为团队和组织带来了更好的业绩和成果。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="1040" height="100" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
